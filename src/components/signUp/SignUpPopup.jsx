@@ -7,7 +7,7 @@ const SignupPopup = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
+ /* useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true); 
     }, delay);
@@ -15,6 +15,7 @@ const SignupPopup = ({
     
     return () => clearTimeout(timer);
   }, [delay]);
+  */
 
   const handleClose = () => setIsOpen(false);
 

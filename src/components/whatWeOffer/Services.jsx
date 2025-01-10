@@ -29,6 +29,7 @@ const Services = ({ categories }) => {
                 key={program.title}
                 title={program.title}
                 description={program.description}
+                subtitle={program.subtitle}
                 imageSrc={program.imageSrc}
                 categoryId={idx}
                 programId={index}

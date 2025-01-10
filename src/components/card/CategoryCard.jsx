@@ -9,6 +9,7 @@ const CategoryCard = ({
   title,
   description,
   imageSrc,
+  subtitle,
   categoryId,
   programId,
 }) => {
@@ -16,20 +17,23 @@ const CategoryCard = ({
 
   return (
     <div className="card max-w-[509px] h-full transition-transform duration-300 hover:scale-105">
-      <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-5 bg-white max-w-sm h-full flex flex-col justify-between">
+      <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-2 bg-white max-w-sm h-full flex flex-col justify-between">
         <img
           src={imageSrc}
           alt={title}
           className="rounded-md w-full max-w-[509px] h-70 object-cover mb-4"
         />
-        <div>
+        <div className="px-2">
           <h3 className="text-xl text-center sm:text-2xl font-bold mb-2 text-black font-roboto">
             {title}
           </h3>
-          <p className="text-sm text-center text-black mb-3">{description}</p>
+          {/* Subtitle with proper text wrapping */}
+          <p className="text-sm text-center w-full px-0 text-black mb-3 break-words">
+            {subtitle}
+          </p>
         </div>
         <div className="flex flex-col gap-5">
-          <ul className="text-sm text-black bg-green-50 rounded-md flex flex-col gap-2 p-2">
+          <ul className="text-sm text-black bg-green-50 rounded-md flex flex-col gap-2 p-1">
             {features.map((feature, index) => (
               <li
                 key={index}

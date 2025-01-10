@@ -19,11 +19,11 @@ const Plans = ({ plans }) => {
       <h3 className=" font-bold text-2xl">Dakshina</h3>
       <ArrowLine className="w-[100px] ml-4"/>
       </div>
-      <div className="grid  grid-cols-1 md:grid-cols-3 px-4 mt-2 gap-8 justify-center items-center  ">
+      <div className="grid  grid-cols-1 md:grid-cols-3 px-4 mt-2 gap-8  justify-center items-center  ">
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="border max-w-[500px] shadow-lg transition-transform duration-300 hover:scale-105  rounded-md bg-white p-4 text-black"
+            className="border max-w-[500px] shadow-lg mx-auto transition-transform duration-300 hover:scale-105  rounded-md bg-white p-4 text-black"
           >
             <div className="bg-[#FFFDF1] p-8 mb-4 flex flex-col justify-center items-center">
               <h4 className="text-2xl">{plan.plan}</h4>
@@ -33,12 +33,12 @@ const Plans = ({ plans }) => {
                   (index === 1 && 5506) ||
                   (index === 2 && 11021)}
               </div>
-              <h1 className="text-md font-bold ">
+              <h1 className="text-md font-bold text-center ">
                 {
                   (index === 1 && save[0]) ||
                   (index === 2 && save[1])}
               </h1>
-              <h1 className="text-sm font-bold ">
+              <h1 className="text-sm font-bold text-center ">
                 {(index == 0 && text[0]) ||
                   (index === 1 && text[1]) ||
                   (index === 2 && text[2])}
