@@ -1,0 +1,62 @@
+import React from "react";
+import ArrowLine from "../arrow/ArrowLine";
+import benefitpic from "../../assets/exer.webp";
+
+// Default props to ensure joiners is an empty array by default
+const Joiners = ({ joiners }) => {
+  // Ensure that joiners is an array before proceeding
+  const validJoiners = Array.isArray(joiners) ? joiners : [];
+
+  const problems = validJoiners.length > 0 ? validJoiners[0].problem : [];
+
+  console.log(problems);
+
+  return (
+    <>
+    <div className="border border-gray-1 ">
+      {validJoiners.length > 0 && (
+        <div className="bg-blue-50  py-8  pt-4 md:pt-28 px-4 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
+          <div className="w-full md:w-5/12 py-8">
+            <p className="text-4xl font-bold mb-4">Who Should Join? </p>
+            <ArrowLine className="w-[200px] ml-24" />
+          </div>
+          <div className="w-full md:w-7/12 mt-2">
+            <p className="font-bold text-xl">
+              Embark on your journey to wellness and confidence—because a
+              healthier, happier YOU means a joyful, thriving MOM!
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* Ensure problems is an array before rendering */}
+      {problems.length > 0 && (
+        <div className="flex flex-col md:flex-row  px-4 md:px-16  bg-blue-50 gap-4  pb-8 md:pb-28 justify-center mx-auto">
+          {problems.map((problem, index) => (
+            <div
+              key={index}
+              className="bg-white  w-full md:w-1/6  flex  gap-4 sm:flex-col  flex-row rounded-md p-4 border"
+            >
+              <img
+                src={problem.url}
+                alt="benefit"
+                className="w-[100px] md:w-full rounded-t-sm bg-white"
+              />
+              <div className="flex flex-col">
+                <li className="py-1 px-2 text-sm list-none">
+                  {problem.shortDescription}
+                </li>
+                <h1 className="text-xs px-2">
+                  Boosts skin glow and shapes your body naturally.
+                </h1>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      </div>
+    </>
+  );
+};
+
+export default Joiners;
