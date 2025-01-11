@@ -11,20 +11,23 @@ const Benefits = ({ benefits }) => {
         <ArrowLine className="w-[200px] ml-8" />
       </div>
       <div className="flex justify-center items-center py-8">
-        <ul className="grid grid-cols-1 md:grid-cols-3 auto-rows-fr   px-4 sm:px-16 justify-center items-center mx-auto gap-8 ">
+        <ul className="flex flex-col sm:flex-row flex-wrap  auto-rows-fr   px-2 sm:px-2 justify-center items-center mx-auto gap-4 ">
           {benefits.map((benefitObj, index) => (
             <div
               key={index}
-              className="bg-white  flex rounded-md gap-8 h-full  border"
+              className="bg-white w-full sm:w-1/3 md:w-1/3 lg:w-1/4  flex flex-row rounded-md gap-2 h-full  border"
             >
-              <li key={index} className="bg-white h-full  flex rounded-md gap-6 p-4  ">
+              <div key={index} className="bg-white h-full  flex   rounded-md gap-6 p-2  ">
                 <img
                   src={benefitObj.urlImage}
                   alt={benefitObj.benefit}
                   className=" w-[100px] rounded-sm object-cover "
                 />
+                <div>
                 <span className=" text-sm">{benefitObj.benefit}</span>
-              </li>
+                </div>
+                
+              </div>
             </div>
           ))}
         </ul>
