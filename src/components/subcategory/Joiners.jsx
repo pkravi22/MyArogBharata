@@ -35,7 +35,7 @@ const Joiners = ({ joiners }) => {
             {problems.map((problem, index) => (
               <div
                 key={index}
-                className="bg-white w-full sm:w-1/3 md:w-1/6 flex gap-4 sm:flex-col flex-row rounded-md p-4 border shadow"
+                className="bg-white w-full sm:w-1/3 md:w-1/5 lg:w-1/6 flex gap-4 sm:flex-col flex-row rounded-md p-4 border shadow"
               >
                 <img
                   src={problem.url}

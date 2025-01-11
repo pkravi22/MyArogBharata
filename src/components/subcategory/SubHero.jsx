@@ -6,16 +6,16 @@ const SubHero = ({ title, image, description }) => {
   console.log(title);
 
   return (
-    <div className="-z-50 max-h-[1080px]">
-      <div className="relative flex justify-center flex-col-reverse sm:flex-row gap-12 sm:gap-4 w-full md:px-0 pt-4 md:pt-8 md:justify-between py-0">
-        <section className="px-4 py-4 md:pt-24 md:px-16 md:w-1/2">
-          <p className="font-bold uppercase text-3xl md:text-3xl xl:6xl">
+    <div className="-z-50 max-h-[1080px] pt-12">
+      <div className="relative flex  flex-col-reverse md:flex-row justify-center items-center  gap-12 sm:gap-4 w-full md:px-0  md:pt-8 md:justify-between py-12">
+        <section className="px-4 py-2 text-center sm:text-start  md:pt-12 md:px-16 md:w-1/2">
+          <p className="font-bold uppercase text-2xl md:text-3xl xl:6xl">
             {title}
           </p>
-          <p className="font-semibold text-base py-2 my-2">{description}</p>
+          <p className="font-semibold text-base mx-auto  py-2 my-2">{description}</p>
 
-          <div className="flex flex-col w-[300px] gap-4 mt-12">
-            <button className="coloredbutton w-full mx-auto py-2 text-sm flex items-center justify-center gap-3">
+          <div className="flex flex-col w-[300px] mx-auto sm:mx-0 gap-4 mt-4">
+            <button className="coloredbutton w-full mx-auto py-2 px-2 text-sm flex items-center justify-center gap-3">
               Book Consultation <FaArrowRight />
             </button>
             <button className="normalbutton w-full mx-auto py-2 text-sm flex items-center justify-center gap-3">
@@ -25,20 +25,20 @@ const SubHero = ({ title, image, description }) => {
         </section>
 
         {/* Updated Section for Vertical Alignment */}
-        <section className="mt-4 md:w-1/2 relative flex justify-center sm:justify-end items-end pt-8 md:pt-0">
-          <div className="absolute -z-30 sm:-right-12 top-12 md:top-4 flex text-orange-700 opacity-25">
+        <section className="mt-0 md:w-1/2 relative flex justify-center sm:justify-end items-end pt-0 md:pt-0">
+          <div className="absolute -z-30 sm:-right-12 top-4 md:-top-24 flex text-orange-700 opacity-25">
             <img
               src={Asset}
               alt="Pattern"
-              className="w-[400px] sm:w-[400px] md:w-[500px] lg:w-[550px] object-contain"
+              className="w-full sm:w-[400px] md:w-[500px] lg:w-[600px] object-contain"
             />
           </div>
 
-          <div className="h-[500px] flex items-end -z-10">
+          <div className="h-[400px] pt-32   flex items-end -z-10 ">
             <img
               src={image}
               alt="Yoga Pose"
-              className="w-[360px] sm:w-[350px] md:w-[400px] lg:w-[450px] object-cover"
+              className="w-[320px] sm:w-[350px] md:w-[400px] lg:w-[450px] object-cover"
             />
           </div>
         </section>

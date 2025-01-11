@@ -75,6 +75,33 @@ import ent_why6 from "../assets/allImages/disease/ent/why/overworked-exhausted-t
 
 
 //benefit
+import musculo_benefit1 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1.webp";
+import musculo_benefit2 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-2.webp";
+import musculo_benefit3 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-3.webp";
+import musculo_benefit4 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-4.webp";
+import musculo_benefit5 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-5.webp";
+import musculo_benefit6 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-6.webp";
+import musculo_benefit7 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-7.webp";
+
+//why
+
+import musculo_why2 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (2).webp";
+import musculo_why3 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (3).webp";
+import musculo_why4 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (4).webp";
+
+import musculo_why5 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (5).webp";
+import musculo_why6 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (6).webp";
+import musculo_why7 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (7).webp";
+import musculo_why8 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (8).webp";
+import musculo_why9 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (9).webp";
+import musculo_why10 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (10).webp";
+import musculo_why11 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (11).webp";
+import musculo_why12 from "../assets/allImages/disease/musculo/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (12).webp";
+
+// musculo
+
+
+//benefit
 import therapy_benefit1 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1.webp";
 import therapy_benefit2 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-2.webp";
 import therapy_benefit3 from "../assets/allImages/disease/therapy/benefit/front-view-woman-practicing-facial-yoga 1-3.webp";
@@ -479,27 +506,27 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          benefits: [
            {
              benefit: "Yoga Therapy : Asana alignment, posture correction",
-             urlImage: therapy_benefit1,
+             urlImage: musculo_benefit1,
            },
            {
              benefit: "Therapy: Oiling, massaging, Panchkarma , Posture, Ergonomic , Naturopathy ",
-             urlImage: therapy_benefit2,
+             urlImage: musculo_benefit2,
            },
            {
              benefit: "Pressing Points -  Pressing Acupressure,Sujok & Marma points to get quick relief ",
-             urlImage: therapy_benefit3,
+             urlImage: musculo_benefit3,
            },
            {
              benefit: "Diet Plan: Nutrient-rich, calcium for bones, proteins for muscles, and holistic diet",
-             urlImage: therapy_benefit4,
+             urlImage: musculo_benefit4,
            },
            {
             benefit: "Pain Healing sessions : Attract Healing energies, mental calm, overcome psychosomatic pain",
-            urlImage: therapy_benefit5,
+            urlImage: musculo_benefit5,
           },
           {
             benefit: "Naturopathy Therapy - Its a killer, Fast and very effective Therapeutic treatment for Pain Management ",
-            urlImage: therapy_benefit6,
+            urlImage: musculo_benefit6,
           },
          ],
          joiners: [
@@ -507,30 +534,56 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
              description:
                "A collection of resources addressing common health issues.",
              problem: [
+              
                {
-                 url: therapy_why0,
-                 shortDescription: "Diabetes care",
-               },
-               {
-                 url: therapy_why1,
+                 url: musculo_why8,
                  shortDescription: "Blood pressure",
                },
                {
-                 url: therapy_why2,
+                 url: musculo_why2,
                  shortDescription: "Cancer support",
                },
                {
-                 url: therapy_why3,
+                 url: musculo_why3,
                  shortDescription: "Asthma management",
                },
                {
-                 url: therapy_why4,
+                 url: musculo_why4,
                  shortDescription: "Memory health",
                },
                {
-                 url: therapy_why5,
+                 url: musculo_why5,
                  shortDescription: "Mental health",
                },
+               {
+                url: musculo_why6,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why7,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why8,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why9,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why10,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why11,
+                shortDescription: "Mental health",
+              },
+              {
+                url: musculo_why12,
+                shortDescription: "Mental health",
+              },
+              
              ],
            },
          ],

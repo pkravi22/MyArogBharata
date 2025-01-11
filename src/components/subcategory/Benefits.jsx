@@ -6,7 +6,7 @@ const Benefits = ({ benefits }) => {
   console.log(benefits.length);
   return (
     <section className=" py-8 md:py-24 z-50 bg-bgBlue border border-gray-200">
-      <div className="px-16 py-8">
+      <div className="px-4 sm:px-8 md:px-16 py-8">
         <h3 className="text-2xl font-bold mb-2">Key Features and Benefits</h3>
         <ArrowLine className="w-[200px] ml-8" />
       </div>
@@ -15,7 +15,7 @@ const Benefits = ({ benefits }) => {
           {benefits.map((benefitObj, index) => (
             <div
               key={index}
-              className="bg-white w-full sm:w-1/3 md:w-1/3 lg:w-1/4  flex flex-row rounded-md gap-2 h-full  border"
+              className="bg-white w-full sm:w-1/2 md:w-1/3 lg:w-1/4  flex flex-row rounded-md gap-2 h-full  border"
             >
               <div key={index} className="bg-white h-full  flex   rounded-md gap-6 p-2  ">
                 <img
