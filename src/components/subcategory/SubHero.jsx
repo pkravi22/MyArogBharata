@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Asset from "../../assets/Asset1.webp";
 
-const SubHero = ({ title, image, description }) => {
+const SubHero = ({ title, image, description,bgImage }) => {
   console.log(title);
 
   return (
@@ -25,20 +25,20 @@ const SubHero = ({ title, image, description }) => {
         </section>
 
         {/* Updated Section for Vertical Alignment */}
-        <section className="mt-0 md:w-1/2 relative flex justify-center sm:justify-end items-end pt-0 md:pt-48">
+        <section className="mt-0 md:w-1/2 relative flex justify-center sm:justify-end items-end pt-0 md:pt-48 -z-10">
           <div className="absolute -z-30 sm:-right-12 top-4 md:top-32 flex text-orange-700 opacity-25">
             <img
-              src={Asset}
+              src={bgImage}
               alt="Pattern"
               className="w-full sm:w-[450px] md:w-[500px] lg:w-[550px] object-contain"
             />
           </div>
 
-          <div className="h-[400px]   flex items-end -z-10 ">
+          <div className=" h-[450px]  flex items-end -z-10 ">
             <img
               src={image}
               alt="Yoga Pose"
-              className="w-[320px] sm:w-[350px] md:w-[400px] lg:w-[400px] object-cover"
+              className="w-[320px] sm:w-[350px] md:w-[300px] lg:w-[400px]"
             />
           </div>
         </section>

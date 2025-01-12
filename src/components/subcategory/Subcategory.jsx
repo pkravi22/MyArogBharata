@@ -21,7 +21,7 @@ const Subcategory = ({ category, program }) => {
 
   return (
     <div className="py-4" >
-      <SubHero title={selectedProgram.title} image={selectedProgram.subHeroImage} description={selectedProgram.description}  />
+      <SubHero title={selectedProgram.title} image={selectedProgram.subHeroImage} description={selectedProgram.description} bgImage={selectedCategory.bgImage}  />
       <Benefits benefits={selectedProgram.benefits} />
       
       <Joiners joiners={selectedProgram.joiners} />

@@ -1,6 +1,12 @@
 import pic1 from "../assets/pic1.webp"
 import pic2 from "../assets/pic2.webp"
 
+import bgDesease from "../assets/diseaseBg.webp"
+import bgFemale from "../assets/Asset1.webp"
+import bgMen from "../assets/mensBg.webp"
+import bgSpirit from "../assets/Asset1.webp"
+import bgHolistic from "../assets/HolisticBg.webp"
+
 
 import emotionalSubHero from "../assets/allImages/subHeroImages/emotional.webp"
 import entSubHero from "../assets/allImages/subHeroImages/entSubHero.webp"
@@ -249,6 +255,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Disease Cure Programs",
      subcategory: "disease",
      faqImageUrl: faq1,
+     bgImage:bgDesease,
      programs: [
        {
          title: "Lifestyle Disease Therapy",
@@ -730,6 +737,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Female Wellness Programs",
      subcategory: "female",
      faqImageUrl: femaleFaq,
+     bgImage:bgFemale,
      programs: [
        {
          title: "Female Wellness",
@@ -1169,6 +1177,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Holistic General Fitness",
      subcategory: "male",
      faqImageUrl: faq1,
+     bgImage:bgHolistic,
      programs: [
        {
          title: "Holistic General Fitness",
@@ -1272,6 +1281,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Men's Sexual Health",
      subcategory: "disease",
      faqImageUrl: manFaq,
+     bgImage:bgMen,
      programs: [
        {
          title: "Men’s Sexual Health",
@@ -1384,6 +1394,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Emotional Spiritual Program ",
      subcategory: "disease",
      faqImageUrl: faq1,
+     bgImage:bgSpirit,
      programs: [
        {
          title: "Emotional & Spiritual Wellness",
