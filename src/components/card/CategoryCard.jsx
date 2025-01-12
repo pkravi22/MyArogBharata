@@ -22,8 +22,8 @@ const handleClick=(categoryId, programId)=>{
 return <LandingPage categoryId={categoryId} programId={programId}/>;
 }
   return (
-    <div className="card max-w-[509px] h-full transition-transform duration-300 hover:scale-105">
-      <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-2 bg-white max-w-sm h-full flex flex-col justify-between">
+    <div className="card max-w-[509px] h-full ">
+      <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-2 bg-white max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105">
         <img
           src={imageSrc}
           alt={title}

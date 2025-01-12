@@ -9,10 +9,12 @@
     -ms-overflow-style: none; /* For IE and Edge */
     scrollbar-width: none; /* For Firefox */
   }
+
   
   html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+    max-width:1500px;
   }

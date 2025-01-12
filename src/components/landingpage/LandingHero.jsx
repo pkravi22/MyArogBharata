@@ -4,20 +4,20 @@ import clouds from "../../assets/clouds.png";
 
 const LandingHero = () => {
   return (
-    <div className="bg-[#313643] text-white  px-2 sm:px-6 flex flex-col lg:flex-row items-center justify-center py-24">
+    <div className="bg-[#313643] text-white px-2 sm:px-6 flex flex-col lg:flex-row items-center justify-center py-24 relative wave-border">
       {/* Left Section - Text Content */}
       <div className="lg:w-1/2 text-left">
-        <h1 className=" text-center text-4xl lg:text-5xl font-bold mb-6">
+        <h1 className="text-center sm:text-left text-4xl lg:text-5xl font-bold mb-6">
           MEN'S SEXUAL HEALTH
         </h1>
-        <p className=" text-center text-lg lg:text-xl leading-relaxed">
+        <p className="text-center sm:text-left text-lg lg:text-xl leading-relaxed">
           Male Wellness Sessions: Reconnect with your Mind, Body, and Soul
           through a transformative program designed for men.
         </p>
       </div>
 
       {/* Right Section - Illustration */}
-      <div className="lg:w-1/2 mt-10 lg:mt-0 relative">
+      <div className="lg:w-1/2 mt-10 lg:mt-0 relative text-blue-400">
         {/* Image */}
         <div className="w-96 sm:w-full mt-32 flex justify-center">
           <img
@@ -28,7 +28,7 @@ const LandingHero = () => {
         </div>
 
         {/* Thought Bubbles */}
-        <div className="absolute  top-36 sm:top-24 rotate-45 right-0 lg:right-18">
+        <div className="absolute top-36 sm:top-32 rotate-45 right-0 lg:right-20">
           <img src={clouds} alt="cloud" className="w-[120px] sm:w-[150px]" />
           <p className="absolute inset-0 text-wrap px-2 flex items-center justify-center text-xs sm:text-sm text-center">
             Excessive Nightfall
@@ -42,14 +42,14 @@ const LandingHero = () => {
           </p>
         </div>
 
-        <div className="absolute  bottom-48 sm:bottom-56   sm:right-0 lg:right-96">
-          <img src={clouds} alt="cloud" className=" w-[120px] sm:w-[150px]" />
+        <div className="absolute bottom-48 sm:bottom-56 sm:right-0 lg:right-96">
+          <img src={clouds} alt="cloud" className="w-[120px] sm:w-[150px]" />
           <p className="absolute inset-0 flex items-center justify-center text-xs sm:text-sm text-center">
             Calm Mind
           </p>
         </div>
 
-        <div className="absolute bottom-12 rotate-45    sm:right-0 lg:right-96">
+        <div className="absolute bottom-12 rotate-45 sm:right-0 lg:right-96">
           <img src={clouds} alt="cloud" className="w-[120px] sm:w-[150px]" />
           <p className="absolute inset-0 flex items-center justify-center text-xs sm:text-sm text-center">
             Wellness
@@ -57,9 +57,9 @@ const LandingHero = () => {
         </div>
 
         {/* Top */}
-        <div className="absolute  top-8 sm:top-0 rotate-12 right-28 lg:right-56">
-          <img src={clouds} alt="cloud" className=" w-[120px] sm:w-[150px]" />
-          <p className="absolute inset-0  pl-8 w-[100px] flex items-center justify-center text-sm text-center">
+        <div className="absolute top-8 sm:top-0 rotate-12 right-28 lg:right-56">
+          <img src={clouds} alt="cloud" className="w-[120px] sm:w-[150px]" />
+          <p className="absolute inset-0 pl-8 w-[100px] flex items-center justify-center text-sm text-center">
             Transformative Care
           </p>
         </div>

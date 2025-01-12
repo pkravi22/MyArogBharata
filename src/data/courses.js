@@ -1274,9 +1274,9 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      faqImageUrl: manFaq,
      programs: [
        {
-         title: "Emotional & Spiritual Wellness",
+         title: "Men’s Sexual Health",
          description:
-           "Libido/ Premature Ejaculation/Erectile Dysfunction/ Infertility/Testosterone/Sperm production",
+           "Unlock the power of energy locks (Bandhas), mudras, Kegel exercises, and pelvic strength to enhance intimacy. Explore Kamasutra practices, sex education, and a stamina diet that celebrates the divine journey from sex to salvation.",
          subtitle:
            "Libido/ Premature Ejaculation/Erectile Dysfunction/ Infertility/Testosterone/Sperm Issues/Excessive nightfall/",
          subHeroImage: manSubHero,
@@ -1387,7 +1387,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      programs: [
        {
          title: "Emotional & Spiritual Wellness",
-         description: "Therapeutic wellness for body and mind recovery.",
+         description: "This session offers healing through Reiki, meditation, pranayama, mindfulness, journaling, and Swara Vigyan to address emotional issues and enrich a peaceful, calm life. Receive counseling support to enhance your Adhyatma journey.",
          subHeroImage: emotionalSubHero,
          subtitle:
            "Anxiety/ Stress/Overthinking/Depression/ Loneliness/Trauma/Anger/Panic/Psychosomatic/ Sleeping Issues/ Insomnia/ Emotional Imbalances /Spiritual Journey",
