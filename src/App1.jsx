@@ -16,6 +16,7 @@ import Contact from "./components/contact/Contact";
 import Navigation from "./components/navigation/Nvaigation";
 import Category from './data/courses';
 import SignupPopup from "./components/signUp/SignUpPopup";
+import LandingPage from "./pages/landingPage/LandingPage";
 const App1 = () => {
   
   return (
@@ -49,6 +50,7 @@ const App1 = () => {
         ))}
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/landingpage" element={<LandingPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

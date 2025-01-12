@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { IoAlarmSharp } from "react-icons/io5";
 import { FaHeartbeat, FaSpa, FaUserFriends } from "react-icons/fa";
 import { MdOutlineSelfImprovement } from "react-icons/md";
+import LandingPage from "../../pages/landingPage/LandingPage";
 
 const CategoryCard = ({
   features,
@@ -14,7 +15,12 @@ const CategoryCard = ({
   programId,
 }) => {
   console.log(categoryId, programId);
+const navigate=useNavigate();
 
+const handleClick=(categoryId, programId)=>{
+  console.log(categoryId)
+return <LandingPage categoryId={categoryId} programId={programId}/>;
+}
   return (
     <div className="card max-w-[509px] h-full transition-transform duration-300 hover:scale-105">
       <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-2 bg-white max-w-sm h-full flex flex-col justify-between">
@@ -56,7 +62,7 @@ const CategoryCard = ({
                 More Details
               </Link>
             </button>
-            <button className="normalbutton text-sm px-6 md:px-8">
+            <button className="normalbutton text-sm px-6 md:px-8" onClick={() => {handleClick(categoryId,programId)}}>
               Click for Trial
             </button>
           </div>
