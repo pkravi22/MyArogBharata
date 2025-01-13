@@ -21,7 +21,7 @@ const Benefit = ({ benefits }) => {
                 <img
                   src={benefitObj.urlImage}
                   alt={benefitObj.benefit}
-                  className=" w-[100px] rounded-sm object-cover "
+                  className=" w-[100px] rounded-sm object-contain "
                 />
                 <div>
                 <span className=" text-sm">{benefitObj.benefit}</span>

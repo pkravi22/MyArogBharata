@@ -13,7 +13,7 @@ const LandingPage = ({ categoryId, programId }) => {
   const testimonials = Category[0].programs[1].testimonials;
   console.log(testimonials);
   return (
-    <div className="bg-white p-1">
+    <div className="bg-white p-0">
       <LandingHero />
       <div className="bg-slate-50 flex flex-col-reverse sm:flex-col">
       <DoctorDetail />

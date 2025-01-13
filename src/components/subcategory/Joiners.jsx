@@ -47,7 +47,7 @@ const Joiners = ({ joiners }) => {
                     {problem.shortDescription}
                   </p>
                   <h1 className="text-xs px-2">
-                    Boosts skin glow and shapes your body naturally.
+                  {problem.moreDetails}
                   </h1>
                 </div>
               </div>
