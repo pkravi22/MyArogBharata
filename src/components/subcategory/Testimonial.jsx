@@ -3,10 +3,10 @@ import React from "react";
 import quote from "../../assets/quote.webp";
 import user from "../../assets/user.webp";
 
-const TestimonialCard = ({ testimonial }) => (
-  <div className="bg-white shadow-md rounded-lg p-4 flex flex-col justify-between w-[90%] lg:w-[48%] min-w-[80%] lg:min-w-[48%] mx-2 relative">
+const TestimonialCard = ({ testimonial,color }) => (
+  <div className="bg-white shadow-md rounded-lg p-4 flex flex-col justify-between w-[96%] lg:w-[48%] min-w-[80%] lg:min-w-[48%] mx-2 relative">
     {/* Top and Left Border */}
-    <div className="absolute inset-0 -left-2 -top-2 -bottom-2 border-t-2 w-2/3 rounded-s-md border-[2px] border-orange-300  border-r-transparent"></div>
+    <div className="absolute inset-0 -left-2 -top-2 -bottom-2 border-t-2 w-2/3 rounded-s-md border-[2px] border-orange-300  border-r-transparent" ></div>
 
     <div className="flex justify-end py-2">
       <img src={quote} alt="" className="w-[50px]" />
@@ -27,10 +27,11 @@ const TestimonialCard = ({ testimonial }) => (
   </div>
 );
 
-const Testimonial = ({ testimonials }) => {
+const Testimonial = ({ testimonials,color }) => {
+  
   return (
-    <section className="bg-blue-50 py-10">
-      <div className="container mx-auto px-4">
+    <section className="py-10" style={{ backgroundColor: color || "#eff8ff" }}>
+      <div className=" mx-auto px-4">
         <h2 className="text-2xl font-bold text-center mb-6">
           Listen from our users
         </h2>
@@ -45,7 +46,7 @@ const Testimonial = ({ testimonials }) => {
             }}
           >
             {testimonials.map((testimonial, index) => (
-              <TestimonialCard key={index} testimonial={testimonial} />
+              <TestimonialCard key={index} testimonial={testimonial} color={color}/>
             ))}
           </div>
         </div>

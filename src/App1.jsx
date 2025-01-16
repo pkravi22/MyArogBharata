@@ -17,6 +17,10 @@ import Navigation from "./components/navigation/Nvaigation";
 import Category from './data/courses';
 import SignupPopup from "./components/signUp/SignUpPopup";
 import LandingPage from "./pages/landingPage/LandingPage";
+import LandingPage1 from "./pages/landingPage/LandingPage";
+import Landingpage2 from "./pages/landingPage/Landingpage2";
+import Landingpage3 from "./pages/landingPage/Landingpage3";
+import Landingpage4 from "./pages/landingPage/Landingpage4";
 const App1 = () => {
   
   return (
@@ -50,7 +54,10 @@ const App1 = () => {
         ))}
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/landingpage" element={<LandingPage/>}/>
+        <Route path="/landingpage1" element={<LandingPage1/>}/>
+        <Route path="/landingpage2" element={<Landingpage2/>}/>
+        <Route path="/landingpage3" element={<Landingpage3/>}/>
+        <Route path="/landingpage4" element={<Landingpage4/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

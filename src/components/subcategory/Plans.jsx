@@ -19,11 +19,11 @@ const Plans = ({ plans }) => {
       <h3 className=" font-bold text-2xl">Dakshina</h3>
       <ArrowLine className="w-[100px] ml-4"/>
       </div>
-      <div className="grid  grid-cols-1 md:grid-cols-3 px-4 mt-2 gap-8  justify-center items-center  ">
+      <div className="grid  grid-cols-1 md:grid-cols-3  px-1 md:px-2 lg:mx-4 mt-2  gap-2 sm:gap-4 lg:gap-8  justify-center items-center  ">
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="border max-w-[500px] shadow-lg mx-auto transition-transform duration-300 hover:scale-105  rounded-md bg-white p-4 text-black"
+            className="border max-w-[500px] shadow-lg mx-auto transition-transform duration-300 hover:scale-105  rounded-md bg-white p-2 lg:p-4 text-black"
           >
             <div className="bg-[#FFFDF1] p-8 mb-4 flex flex-col justify-center items-center">
               <h4 className="text-2xl">{plan.plan}</h4>
@@ -47,7 +47,7 @@ const Plans = ({ plans }) => {
             <div className="px-4 py-2 flex flex-col gap-4  ">
               <div className="flex gap-2 item-center justif-start">
                
-                <img src={tick} alt="" className="w-[25px]"/>
+                <img src={tick} alt="" className="w-[25px] "/>
                 <h2>Recorded classes</h2>
               </div>
               <div className="flex gap-2 item-center justify-start">
@@ -55,11 +55,11 @@ const Plans = ({ plans }) => {
                 <h2>Customized Diet Plan</h2>
               </div>
               <div className="flex gap-2 item-center justify-start">
-              <img src={tick} alt="" className="w-[25px]"/>  
+              <img src={tick} alt="" className="w-[25px] object-contain"/>  
                 <h2>Detox through meditation</h2>
               </div>
               <div className="flex gap-2 item-center justify-start">
-              <img src={tick} alt="" className="w-[25px]"/>
+              <img src={tick} alt="" className="w-[25px] object-contain"/>
                 <h2>Personalized Counselling</h2>
               </div>
             </div>

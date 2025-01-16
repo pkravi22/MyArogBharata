@@ -21,7 +21,7 @@ const Services = ({ categories }) => {
               <ArrowLine className=" w-[100px] md:w-[150px] ml-8" />
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:mx-8 gap-8 lg:grid-cols-2 auto-rows-fr w-full md:w-3/4">
+          <div className="grid grid-cols-1 sm:mx-6 gap-5 lg:grid-cols-2 auto-rows-fr w-full md:w-3/4">
             {category.programs.map((program, index) => (
               <CategoryCard
                 className="h-full" // Ensure cards stretch to match the tallest card

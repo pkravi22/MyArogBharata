@@ -26,7 +26,7 @@ const Subcategory = ({ category, program }) => {
       
       <Joiners joiners={selectedProgram.joiners} />
       <Plans plans={selectedProgram.premiumPlans} />
-      <Testimonial testimonials={selectedProgram.testimonials} />
+      <Testimonial testimonials={selectedProgram.testimonials} color=""/>
       <FAQ image={selectedCategory.faqImageUrl} />
     </div>
   );

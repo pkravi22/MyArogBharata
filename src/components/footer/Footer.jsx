@@ -16,7 +16,7 @@ import ArrowLine from "../arrow/ArrowLine";
 const Footer = () => {
   return (
     <footer className="bg-white py-16">
-      <div className="container mx-auto px-4 ">
+      <div className=" mx-auto px-4 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 text-center  lg:text-left pb-32">
           {/* Logo and Social Media */}
           <div className="flex flex-col items-center justify-center">
@@ -135,8 +135,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-28">
-          <ArrowLine className="w-screen px-16" />
+        <div className="mt-28 px-4">
+          <ArrowLine className="w-screen md:px-0" />
         </div>
       </div>
     </footer>

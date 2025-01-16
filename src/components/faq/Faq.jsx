@@ -60,8 +60,8 @@ const FAQ = ({image}) => {
 
   return (
     <>
-      <div className=" relative p-4 md:p-32  flex flex-col justify-end  items-end sm:flex-row bg-blue-50 gap-8 border border-gray-1">
-        <div className="absolute  opacity-25 md:opacity-100  left-20 bottom-0  sm:
+      <div className=" relative p-4 md:p-16 lg:p-32  flex flex-col justify-end  items-end sm:flex-row bg-blue-50 gap-8 border border-gray-1">
+        <div className="absolute  opacity-25 lg:opacity-100  left-20 bottom-0  sm:
       ">
           <img src={image} alt="" className="w-[500px]  " />
         </div>
@@ -69,7 +69,7 @@ const FAQ = ({image}) => {
           <img src={image} alt="" className="w-[450px] -z-20 opacity-0" />
         </div>
 
-        <div className="space-y-4 w-full sm:w-1/2 max-w-[500px] flex flex-col  ">
+        <div className="space-y-4 w-full sm:w-2/3 lg:w-1/2 max-w-[500px] flex flex-col  ">
           <h1 className="text-3xl mb-12">FAQ's</h1>
           {faqData.map((item) => (
             <div

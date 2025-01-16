@@ -1,10 +1,10 @@
 import React from "react";
 import profile from "../../assets/Group 11.png";
-const Doctordetail = () => {
+const Doctordetail = ({color}) => {
   return (
     <>
-      <div className="h-auto border my-2  p-2 bg-white rounded-md">
-        <div className="flex gap-4 bg-[#5097D1] p-1">
+      <div className="h-auto  my-0  py-8 px-4 bg-white" >
+        <div className="flex gap-4 ] p-1 rounded-lg" style={{ backgroundColor: color }}>
           <img
             src={profile}
             alt=""

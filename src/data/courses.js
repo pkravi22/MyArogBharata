@@ -265,10 +265,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Diabetes/B.P/Thyroid/Heart Issues/Sinusitis/Migraine/Asthma/ ENT/ Obesity etc",
          subHeroImage: therapySubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -278,11 +278,11 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            },
            {
              benefit:
-               "Meditation & Healing for Psychosomatic Conditions & Stress Relief ",
+               "Meditation, Healing (Reiki, Pranic, PLR, Chakra) for Psychosomatic Conditions & Stress Relief ",
              urlImage: therapy_benefit1,
            },
            {
-             benefit: "Detox for Gut Health & Colon Cleansing",
+             benefit: "Detox/Naturopathy/Panchkarma  for Gut Health & Colon Cleansing",
              urlImage: therapy_benefit2,
            },
 
@@ -353,21 +353,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -383,10 +383,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Acid Reflux/GERD/IBS/Gastric issues/Constipation/Diarrhea/Digestion issues/Stomach Ache etc",
          subHeroImage: gasSubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          joiners: [
@@ -440,7 +440,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            },
            {
              benefit:
-               "Detox : Cleanses the gut, supports colon health, and enhances digestion ",
+               "Detox/Naturopathy/Panchkarma  : Cleanses the gut, supports colon health, and enhances digestion ",
              urlImage: gas_benefit3,
            },
            {
@@ -472,21 +472,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -504,10 +504,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          subHeroImage: musclePainSubHero,
 
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -602,21 +602,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -632,10 +632,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Sinusitis/ Rhinitis/ Nasal blockage/ Polyp/ Allergy/ Snoring issues/Tinnitus etc",
          subHeroImage: entSubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          joiners: [
@@ -684,7 +684,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
              urlImage: ent_benefit3,
            },
            {
-             benefit: "Detox: Eliminate toxins and rejuvenate the body",
+             benefit: "Detox/Naturopathy/Panchkarma : Eliminate toxins and rejuvenate the body",
              urlImage: ent_benefit2,
            },
            {
@@ -705,21 +705,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -747,10 +747,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "PCOD/ PCOS/MENSTRUAL ISSUES/ HAIR LOSS/ Weight Loss/ Acne/ Anti-Aging/ Stress /Sleep Issues/Infertility etc",
          subHeroImage: wellnessSubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -763,7 +763,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
              urlImage: wellness_benefit6,
            },
            {
-             benefit: "Detox & Gut Health: Eliminate toxins and rejuvenate from within.",
+             benefit: "Detox/Naturopathy/Panchkarma  & Gut Health: Eliminate toxins and rejuvenate from within.",
              urlImage: wellness_benefit4,
            },
            {
@@ -825,21 +825,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -855,10 +855,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Weight Loss/Body Shaping/ Postpartum Depression/Recovery/Emotional support/Motherhood / Breastfeeding /sleep recovery",
          subHeroImage: postpartumSubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -869,7 +869,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            },
            {
              benefit:
-               "DETOX: Enhance gut health and eliminate toxins for a rejuvenated body after childbirth",
+               "Detox/Naturopathy/Panchkarma : Enhance gut health and eliminate toxins for a rejuvenated body after childbirth",
              urlImage: postpartum_benefit4,
            },
            {
@@ -944,21 +944,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -968,17 +968,17 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
        },
 
        {
-         title: "Female pregnancy",
+         title: "Pregnancy/Prenatal Wellness ",
          description:
            "Ensures a safe and healthy delivery while preventing hormonal imbalances, safeguarding the baby, and promoting optimal growth. It also enhances mental peace, physical strength, and overall health for both mother and baby.",
          subtitle:
            "1st,2nd,3rd Trimester/Healthy Delivery/Mental Health Support/Garbh Sanskar /Baby Samvad /Motherhood",
          subHeroImage: pregnancySubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -1044,21 +1044,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -1074,10 +1074,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Weightloss/ Fitness/Body Toning/  Facial Yoga/ Acne/ Skin Glow/ Gut Cleaning / Skin routine / Anti-Ageing / Diet",
          subHeroImage: beautySubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -1147,21 +1147,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -1187,10 +1187,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          subHeroImage: holisticSubHero,
 
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -1251,21 +1251,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -1291,10 +1291,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
            "Libido/ Premature Ejaculation/Erectile Dysfunction/ Infertility/Testosterone/Sperm Issues/Excessive nightfall/",
          subHeroImage: manSubHero,
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -1362,21 +1362,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",
@@ -1403,10 +1403,10 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          subtitle:
            "Anxiety/ Stress/Overthinking/Depression/ Loneliness/Trauma/Anger/Panic/Psychosomatic/ Sleeping Issues/ Insomnia/ Emotional Imbalances /Spiritual Journey",
          features: [
-           "45min Live Yoga/Cardio/Pilates classes",
-           "Detox",
+           "Daily Therapeutic Yoga/Exercises Sessions",
+           "Detox/Naturopathy/Panchkarma ",
            "Customized Diet Plan",
-           "Meditation & Healing",
+           "Meditation, Healing (Reiki, Pranic, PLR, Chakra)",
            "Personalized Counselling",
          ],
          benefits: [
@@ -1472,21 +1472,21 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          testimonials: [
            {
              message:
-               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the detox sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
+               "After years of struggling with PCOD, hair loss, and skin issues, I've experienced a miracle—thanks to Acharya Swayam Ji and the Yogic Master's team. My PCOD is resolved, hair loss has stopped, and my pimples cleared due to the Detox/Naturopathy/Panchkarma  sessions. Through healing, meditation, and counseling, I've gained inner clarity. I've lost 9 kg, feel lighter, and look seven years younger—thanks to the Yogic lifestyle, diet, and yoga. I'm forever grateful to Acharya Swayam Ji and the team for this transformation.",
              name: "Heena",
              profession: "IT Professional",
              location: "Jamshedpur",
            },
            {
              message:
-               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The detox sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
+               "My routine was disrupted, and I struggled with anxiety and mental health issues, which affected my physical health. The Detox/Naturopathy/Panchkarma  sessions revitalized my gut health, and the healing and Dhyan Sadhna transformed my inner being. I've learned to live a peaceful, blissful life amidst the chaos, thanks to the guidance of Acharya Ji. I am deeply grateful forever.",
              name: "Shrishti",
              profession: "Homemaker",
              location: "Haryana",
            },
            {
              message:
-               "Yoga, detox, and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
+               "Yoga, Detox/Naturopathy/Panchkarma , and meditation changed my perspective on life. Thanks to Acharya Ji's expert advice and support, I’ve achieved a healthier and calmer lifestyle.",
              name: "Amit",
              profession: "Entrepreneur",
              location: "Mumbai",

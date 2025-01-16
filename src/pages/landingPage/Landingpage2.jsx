@@ -7,31 +7,33 @@ import Testimonial from "../../components/subcategory/Testimonial";
 import Services from "../../components/landingpage/Services";
 import Category from "../../data/courses";
 import Benefit from "../../components/landingpage/Benefit";
-import hero1 from "../../assets/Group 13.webp";
-import bg from "../../assets/Bgvector1.png";
+import hero2 from "../../assets/Group 14.webp";
 
-const LandingPage1 = ({ categoryId, programId }) => {
+
+import bg from "../../assets/femaleBg.webp";
+const Landingpage2 = ({ categoryId, programId }) => {
   console.log(Category[0].programs[1]);
-  const benefits = Category[0].programs[1].benefits;
-  const testimonials = Category[0].programs[1].testimonials;
+  const benefits = Category[1].programs[0].benefits;
+  const testimonials = Category[1].programs[0].testimonials;
   console.log(testimonials);
-  const heroHeading="MEN’S SEXUAL HEALTH"
-const description="Male Wellness Sessions : Reconnect with your Mind, Body, and Soul through a transformative program designed for men."
 
-  
+const heroHeading="Female wellness"
+const description="Female Wellness Sessions : Reconnect with your Mind, Body, and Soul through a transformative program designed for women"
+
+
   return (
     <div className="bg-white p-0">
-      <LandingHero hero1={hero1}  bg={bg} heroHeading={heroHeading}  description={description}/>
+      <LandingHero hero1={hero2}  bg={bg} heroHeading={heroHeading}  description={description}/>
       <div className="bg-slate-50 flex flex-col-reverse sm:flex-col">
-      <DoctorDetail  color="#5097D1"/>
+      <DoctorDetail  color="#FFDDFD"/>
       <Services />
       </div>
       
       <Benefit benefits={benefits} />
-      <Testimonial testimonials={testimonials} color="#5097D1" />
+      <Testimonial testimonials={testimonials} color="#FFDDFD" />
       <LandingFooter />
     </div>
   );
 };
 
-export default LandingPage1;
+export default Landingpage2;

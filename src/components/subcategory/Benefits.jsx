@@ -5,28 +5,27 @@ import ArrowLine from "../arrow/ArrowLine";
 const Benefits = ({ benefits }) => {
   console.log(benefits.length);
   return (
-    <section className=" py-8 md:py-24 z-50 bg-bgBlue border border-gray-200">
+    <section className="py-8  md:py-24 z-50 bg-blue-50 border border-gray-200">
       <div className="px-4 sm:px-8 md:px-16 py-8">
-        <h3 className="text-2xl font-bold mb-2">Key Features and Benefits</h3>
-        <ArrowLine className="w-[200px] ml-8" />
+        <h3 className="text-2xl md:text-4xl font-bold mb-2">Key Features and Benefits</h3>
+        <ArrowLine className="w-[300px] md:w-[450px] ml-8" />
       </div>
       <div className="flex justify-center items-center py-8">
-        <ul className="flex flex-col sm:flex-row flex-wrap  auto-rows-fr   px-2 sm:px-2 justify-center items-center mx-auto gap-4 ">
+        <ul className="flex flex-col sm:flex-row flex-wrap auto-rows-fr px-2 sm:px-2 justify-center items-center mx-auto gap-6">
           {benefits.map((benefitObj, index) => (
             <div
               key={index}
-              className="bg-white w-full sm:w-1/2 md:w-1/3 lg:w-1/4  flex flex-row rounded-md gap-2 h-full  border"
+              className="bg-white w-full sm:w-1/2 md:w-1/3 lg:w-[30%] flex flex-row rounded-md gap-4 h-full border"
             >
-              <div key={index} className="bg-white h-full  flex   rounded-md gap-6 p-2  ">
+              <div className="bg-white h-full flex flex-row rounded-md gap-3 p-2">
                 <img
                   src={benefitObj.urlImage}
                   alt={benefitObj.benefit}
-                  className=" w-[100px] rounded-sm object-contain "
+                  className="w-[100px] rounded-sm object-contain"
                 />
-                <div>
-                <span className=" text-sm">{benefitObj.benefit}</span>
+                <div className="flex-1 overflow-hidden">
+                  <span className="text-base break-words">{benefitObj.benefit}</span>
                 </div>
-                
               </div>
             </div>
           ))}

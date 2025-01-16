@@ -15,10 +15,10 @@ const Joiners = ({ joiners }) => {
     <>
       <div className="border border-gray-1 ">
         {validJoiners.length > 0 && (
-          <div className="bg-blue-50  py-8  pt-4 md:pt-28 px-4 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
+          <div className="bg-blue-50  py-8  pt-4 md:pt-12 px-6 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
             <div className="w-full md:w-5/12 py-8">
-              <p className="text-4xl font-bold mb-4">Who Should Join? </p>
-              <ArrowLine className="w-[200px] ml-24" />
+              <p className="text-2xl md:text-4xl font-bold mb-4">Who Should Join? </p>
+              <ArrowLine className=" w-[180px] md:w-[250px]  ml-16 sm:ml-24" />
             </div>
             <div className="w-full md:w-7/12 mt-2">
               <p className="font-bold text-xl">
@@ -31,16 +31,16 @@ const Joiners = ({ joiners }) => {
 
         {/* Ensure problems is an array before rendering */}
         {problems.length > 0 ? (
-          <div className="flex flex-col sm:flex-row flex-wrap px-4 md:px-16 bg-blue-50 gap-4 pb-8 md:pb-28 justify-center mx-auto">
+          <div className="flex flex-col sm:flex-row flex-wrap px-4 md:px-4 bg-blue-50 gap-6 pb-8 md:pb-28 justify-center mx-auto">
             {problems.map((problem, index) => (
               <div
                 key={index}
-                className="bg-white w-full sm:w-1/3 md:w-1/5 lg:w-1/6 flex gap-4 sm:flex-col flex-row rounded-md p-4 border shadow"
+                className="bg-white w-full sm:w-1/4  md:w-1/5 lg:w-1/6 flex gap-2 sm:flex-col flex-row   rounded-md p-4 border shadow"
               >
                 <img
                   src={problem.url}
                   alt={problem.altText || "Problem Image"}
-                  className="w-[100px] md:w-full rounded-t-sm bg-white"
+                  className="w-[100px] md:w-full object-cover rounded-t-sm bg-white"
                 />
                 <div className="flex flex-col">
                   <p className="py-1 px-2 text-sm truncate">
