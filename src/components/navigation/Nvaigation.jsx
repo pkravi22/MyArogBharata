@@ -12,7 +12,7 @@ const Navigation = () => {
         </div>
 
         <div className="  flex justify-center items-center  bg-blue-50">
-          <div className="  z-10 text-center bg-white border border-black shadow-lg rounded-lg p-2 max-w-sm">
+          <div className="   text-center bg-white border border-black shadow-lg rounded-lg p-2 max-w-sm">
             <h2 className="text-xl font-bold text-gray-800 mb-6">
               Explore our programs on
             </h2>

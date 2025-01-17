@@ -1,45 +1,78 @@
-const About = () => {
-  return (
-    <section className="bg-blue-50 py-24  px-6" id="about">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-32">
-      
-        <div className="w-full sm:w-1/2 flex justify-center">
-          <img
-            src="/src/assets/guruji.png"
-            alt="Meditation group"
-            className=" w-[466px] rounded-[25px] "
-          />
-        </div>
+import React from "react";
+import bgImage from "../../assets/aboutusBg.png";
+import ArrowLine from "../arrow/ArrowLine";
 
-      
-        <div className=" flex flex-col gap-4 w-full sm:w-1/2 text-center lg:text-left">
-          <div className="flex items-center gap-4">
-            
-            <h2 className="text-base font-comfortaa leading-6 flex items-center tracking-normal text-[#00235A] text-nowrap">
-              Welcome To Arog Bharat
+const AboutUs = () => {
+  return (
+    <div className="bg-blue-50 relative min-h-screen flex flex-col items-center justify-center py-10 px-6">
+      {/* Heading Section */}
+      <div className="flex flex-col items-start px-8 py-4 w-full max-w-5xl">
+        <div className="flex flex-col items-center gap-1">
+          <h1 className="text-3xl font-bold text-gray-800  ">
+            About Us
+          </h1>
+          <ArrowLine className="w-[150px] md:w-[140px]" />
+        </div>
+      </div>
+
+      {/* Content Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-16 w-full max-w-5xl">
+        {/* Left Column */}
+        <div className="flex flex-col gap-6">
+          {/* Our Mission */}
+          <div className="bg-white relative  shadow-lg rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg absolute  -top-4 font-semibold text-gray-700 mb-4">
+              Our Mission
             </h2>
-            <span className="w-[400px] bg-[#00235A] h-1"></span>
+            <p className="text-gray-600 leading-relaxed">
+              To create a disease-free lifestyle using the secrets of ancient
+              Himalayan Yogis and Tibetan Vaidyas, blending Yoga, Pranayama,
+              Bandha, Kriya, Mudra, Detox, Shatkarma, Marma Therapy, Chakra
+              Healing, and Therapeutic Diets.
+            </p>
           </div>
 
-         
-          <p className=" text-[24px] md:text-[36px] font-comfortaa leading-[35px] flex justify-center sm:justify-start items-center tracking-normal text-[#011A1D];">
-            ArogBharat <br />
-            Reverse the Disease,
-            <br /> Live with Ease
-          </p>
-          <p className="text-[#00235A] text-lg leading-relaxed mb-4">
-            Adhyatma is an association of traditional yoga practitioners who are
-            on a mission to bring the holistic practices of yoga that
-            encompasses the mind, body, and spirit. At Adhyatma, the
-            dharma(duty) of each teacher is to spread the ancient wisdom and
-            practice of yoga with practitioners around the world and to provide
-            a supportive and authentic environment for your yoga journey through
-            online and offline yoga offerings.
+          {/* Our Master's */}
+          <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg font-semibold text-gray-700 mb-4">
+              Our Master's
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              Led by experts from SVYASA (founded by a NASA scientist), Bihar
+              School of Yoga (awarded by the Prime Minister), Patanjali
+              University, and Tibetan Vaidyas, our team ensures a science-backed,
+              authentic approach to health and wellness.
+            </p>
+          </div>
+        </div>
+
+        {/* Right Column */}
+        <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
+          <h2 className="text-lg font-semibold text-gray-700 mb-4">
+            About Acharya Swami Ji
+          </h2>
+          <p className="text-gray-600 leading-relaxed">
+            A Limca Book of Records holder and an avid adventurer who completed
+            10,000 km cycling across India, from Jammu to Kanyakumari and
+            Arunachal Pradesh to Gujarat, Acharya Swayam is a master of holistic
+            healing, detox, therapeutic diets, and Marma Chikitsa. Trained by
+            Himalayan yogis and Tibetan healers, with over 150 days in deep
+            meditation, he offers personalized solutions for women’s health,
+            men’s wellness, chronic illnesses, and mental well-being.
           </p>
         </div>
       </div>
-    </section>
+
+      {/* Background Image */}
+      <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+        <img
+          src={bgImage}
+          alt="Background"
+          className="w-[500px] opacity-20 md:opacity-40"
+        />
+      </div>
+    </div>
   );
 };
 
-export default About;
+export default AboutUs;

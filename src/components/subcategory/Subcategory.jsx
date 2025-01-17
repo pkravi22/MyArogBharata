@@ -6,6 +6,7 @@ import Plans from './Plans';
 import Testimonial from './Testimonial';
 import FAQ from '../faq/Faq';
 import Joiners from './Joiners';
+import Timings from './Timings';
 
 
 const Subcategory = ({ category, program }) => {
@@ -22,9 +23,10 @@ const Subcategory = ({ category, program }) => {
   return (
     <div className="py-4" >
       <SubHero title={selectedProgram.title} image={selectedProgram.subHeroImage} description={selectedProgram.description} bgImage={selectedCategory.bgImage}  />
-      <Benefits benefits={selectedProgram.benefits} />
       
+      <Benefits benefits={selectedProgram.benefits} />
       <Joiners joiners={selectedProgram.joiners} />
+      <Timings/>
       <Plans plans={selectedProgram.premiumPlans} />
       <Testimonial testimonials={selectedProgram.testimonials} color=""/>
       <FAQ image={selectedCategory.faqImageUrl} />

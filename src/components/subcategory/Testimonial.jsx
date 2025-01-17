@@ -2,6 +2,7 @@
 import React from "react";
 import quote from "../../assets/quote.webp";
 import user from "../../assets/user.webp";
+import ArrowLine from "../arrow/ArrowLine";
 
 const TestimonialCard = ({ testimonial,color }) => (
   <div className="bg-white shadow-md rounded-lg p-4 flex flex-col justify-between w-[96%] lg:w-[48%] min-w-[80%] lg:min-w-[48%] mx-2 relative">
@@ -31,9 +32,10 @@ const Testimonial = ({ testimonials,color }) => {
   
   return (
     <section className="py-10" style={{ backgroundColor: color || "#eff8ff" }}>
-      <div className=" mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-6">
+      <div className=" mx-auto  px-4 sm:px-2">
+        <h2 className=" text-2xl sm:text-4xl sm:px-8 font-bold  mb-6">
           Listen from our users
+          <ArrowLine className=" w-[180px] md:w-[320px]  ml-16 sm:ml-24" />
         </h2>
         <div className="relative">
           <div

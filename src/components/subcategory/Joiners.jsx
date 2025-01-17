@@ -15,8 +15,8 @@ const Joiners = ({ joiners }) => {
     <>
       <div className="border border-gray-1 ">
         {validJoiners.length > 0 && (
-          <div className="bg-blue-50  py-8  pt-4 md:pt-12 px-6 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
-            <div className="w-full md:w-5/12 py-8">
+          <div className="bg-blue-50  py-4  pt-4 md:pt-8 px-6 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
+            <div className="w-full md:w-5/12 py-4">
               <p className="text-2xl md:text-4xl font-bold mb-4">Who Should Join? </p>
               <ArrowLine className=" w-[180px] md:w-[250px]  ml-16 sm:ml-24" />
             </div>
@@ -31,7 +31,8 @@ const Joiners = ({ joiners }) => {
 
         {/* Ensure problems is an array before rendering */}
         {problems.length > 0 ? (
-          <div className="flex flex-col sm:flex-row flex-wrap px-4 md:px-4 bg-blue-50 gap-6 pb-8 md:pb-28 justify-center mx-auto">
+          <div className="flex flex-col sm:flex-row flex-wrap px-4 md:px-4 bg-blue-50 gap-6 
+          pb-8 md:pb-16 justify-center mx-auto">
             {problems.map((problem, index) => (
               <div
                 key={index}

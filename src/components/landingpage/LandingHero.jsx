@@ -24,7 +24,7 @@ const LandingHero = ({hero1,bg,heroHeading,description}) => {
       </div>
 
       {/* Right Section - Image */}
-      <div className="relative sm:w-1/2 pt-4 flex items-center justify-center">
+      <div className="relative sm:w-1/2  pt-4 sm:pt-24 flex items-center justify-center">
         <img
           src={hero1}
           alt="Man illustration"

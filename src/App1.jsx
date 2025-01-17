@@ -21,6 +21,7 @@ import LandingPage1 from "./pages/landingPage/LandingPage";
 import Landingpage2 from "./pages/landingPage/Landingpage2";
 import Landingpage3 from "./pages/landingPage/Landingpage3";
 import Landingpage4 from "./pages/landingPage/Landingpage4";
+import AboutUs from "./components/about/About";
 const App1 = () => {
   
   return (
@@ -38,7 +39,9 @@ const App1 = () => {
           element={
             <>
               <Hero />
+              <AboutUs/>
               <Navigation/>
+              
               <Services categories={Category} />
             </>
           }

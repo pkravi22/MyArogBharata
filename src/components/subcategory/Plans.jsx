@@ -14,10 +14,10 @@ const Plans = ({ plans }) => {
     " ₹ 500/month(save ₹ 5000)",
   ]
   return (
-    <section className="bg-bgBlue  py-8 md:py-16 px-2 md:px-16 border border-gray-1">
+    <section className="bg-bgBlue  py-8 md:py-12 px-2 md:px-16 border border-gray-1">
       <div className="flex flex-col px-8 py-8 ">
-      <h3 className=" font-bold text-2xl">Dakshina</h3>
-      <ArrowLine className="w-[100px] ml-4"/>
+      <h3 className=" font-bold  text-2xl sm:text-4xl">Dakshina</h3>
+      <ArrowLine className=" w-[140px] sm:w-[160px] ml-4"/>
       </div>
       <div className="grid  grid-cols-1 md:grid-cols-3  px-1 md:px-2 lg:mx-4 mt-2  gap-2 sm:gap-4 lg:gap-8  justify-center items-center  ">
         {plans.map((plan, index) => (
