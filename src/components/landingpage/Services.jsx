@@ -5,7 +5,7 @@ import frame3 from "../../assets/Group 7.png";
 import frame4 from "../../assets/Group 10.png";
 const Services = () => {
   return (
-    <div class="grid grid-cols-2 md:grid-cols-4 bg-white  px-2 sm:px-8 pt-24 pb-4 ">
+    <div class="grid grid-cols-2 md:grid-cols-4 bg-white font-inter  px-2 sm:px-8 pt-8 pb-4 ">
       <div class="flex gap-2   items-center p-4 ">
         <div class="text-4xl  bg-[#5097D166] p-2 rounded-sm">
           <img src={frame1} alt="" className="w-[60px]" />

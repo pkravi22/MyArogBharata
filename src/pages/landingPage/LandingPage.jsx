@@ -1,7 +1,7 @@
 import React from "react";
 import LandingFooter from "../../components/landingpage/LandingFooter";
 import LandingHero from "../../components/landingpage/LandingHero";
-import DoctorDetail from "../../components/landingpage/DoctorDetail";
+
 import Benefits from "../../components/subcategory/Benefits";
 import Testimonial from "../../components/subcategory/Testimonial";
 import Services from "../../components/landingpage/Services";
@@ -9,6 +9,7 @@ import Category from "../../data/courses";
 import Benefit from "../../components/landingpage/Benefit";
 import hero1 from "../../assets/Group 13.webp";
 import bg from "../../assets/Bgvector1.png";
+import Doctordetail from "../../components/landingpage/Doctordetail";
 
 const LandingPage1 = ({ categoryId, programId }) => {
   console.log(Category[0].programs[1]);
@@ -22,8 +23,8 @@ const description="Male Wellness Sessions : Reconnect with your Mind, Body, and 
   return (
     <div className="bg-white p-0">
       <LandingHero hero1={hero1}  bg={bg} heroHeading={heroHeading}  description={description}/>
-      <div className="bg-slate-50 flex flex-col-reverse sm:flex-col">
-      <DoctorDetail  color="#5097D1"/>
+      <div className="bg-slate-50 flex flex-col-reverse pt-16 pb-4 sm:flex-col">
+      <Doctordetail  color="#5097D1"/>
       <Services />
       </div>
       

@@ -32,10 +32,10 @@ const Testimonial = ({ testimonials,color }) => {
   
   return (
     <section className="py-10" style={{ backgroundColor: color || "#eff8ff" }}>
-      <div className=" mx-auto  px-4 sm:px-2">
+      <div className=" mx-auto  px-4 sm:px-8">
         <h2 className=" text-2xl sm:text-4xl sm:px-8 font-bold  mb-6">
           Listen from our users
-          <ArrowLine className=" w-[180px] md:w-[320px]  ml-16 sm:ml-24" />
+          <ArrowLine className=" w-full md:w-[320px]  ml-16 sm:ml-24" />
         </h2>
         <div className="relative">
           <div

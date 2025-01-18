@@ -14,13 +14,13 @@ const Timings = () => {
 
   return (
     <div className="bg-blue-50 py-10  px-2 sm:px-5 flex flex-col justify-center items-center">
-      <div className=" mb-8 flex gap-16  sm:gap-36 md:gap-72 ">
+      <div className=" mb-8 flex flex-col sm:flex-row gap-8  sm:gap-36 md:gap-72 ">
         <div className="flex flex-col  gap-1">
-          <h2 className="text-4xl font-bold text-gray-800">Timings</h2>
-          <ArrowLine className="w-[100px] md:w-[100px] ml-8" />
+          <h2 className="text-4xl font-bold text-gray-800 px-2">Timings</h2>
+          <ArrowLine className="w-[120px] md:w-[100px] ml-8" />
         </div>
 
-        <p className="text-black font-bold text-xl">
+        <p className="text-black font-bold text-xl px-2">
           Multiple Batches (join as per convenience)
         </p>
       </div>
