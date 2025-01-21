@@ -8,7 +8,7 @@ const Benefit = ({ benefits }) => {
   return (
     <section className="py-2 md:py-8 z-50 bg-white">
       <div className="px-4 sm:px-8 md:px-16 py-4 sm:py-12">
-        <h3 className="text-2xl text-center sm:text-start font-bold mb-1">Key Features and Benefits</h3>
+        <h3 className="text-2xl sm:text-4xl  text-center sm:text-start font-bold mb-1">Key Features and Benefits</h3>
       </div>
       <div className="flex justify-center items-center py-8">
         <ul className="flex flex-col sm:flex-row flex-wrap auto-rows-fr px-2 sm:px-2 justify-center items-center mx-auto gap-4">
@@ -17,9 +17,9 @@ const Benefit = ({ benefits }) => {
             return (
               <div
                 key={index}
-                className="bg-white w-full sm:w-1/2 md:w-5/12 lg:w-[30%] flex flex-row rounded-md gap-2 h-full border border-[#9c9a9a] shadow-md"
+                className="bg-white w-full sm:w-1/2 md:w-5/12 lg:w-[30%] flex flex-row rounded-lg gap-2 h-full border border-[#8f8c8c] shadow-md"
               >
-                <div className="bg-white h-full flex rounded-md gap-6 p-2">
+                <div className="bg-white h-full flex rounded-md gap-3 p-2">
                   <img
                     src={benefitObj.urlImage}
                     alt={benefitObj.benefit}

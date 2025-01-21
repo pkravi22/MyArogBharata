@@ -5,7 +5,7 @@ import user from "../../assets/user.webp";
 import ArrowLine from "../arrow/ArrowLine";
 
 const TestimonialCard = ({ testimonial,color }) => (
-  <div className="bg-white shadow-md rounded-lg p-4 flex flex-col justify-between w-[96%] lg:w-[48%] min-w-[80%] lg:min-w-[48%] mx-2 relative">
+  <div className="bg-white shadow-md rounded-lg p-4 flex flex-col justify-between w-full lg:w-[48%] min-w-[80%] lg:min-w-[48%] mx-2 relative">
     {/* Top and Left Border */}
     <div className="absolute inset-0 -left-2 -top-2 -bottom-2 border-t-2 w-2/3 rounded-s-md border-[2px] border-orange-300  border-r-transparent" ></div>
 

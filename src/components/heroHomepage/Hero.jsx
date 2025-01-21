@@ -7,7 +7,7 @@ import { useState } from "react";
 const Hero = () => {
   const [open, setOpen] = useState(false);
 
-  const handleClick = () => {
+  const handleTryClasses = () => {
     setOpen(!open);
   };
 
@@ -48,7 +48,7 @@ const Hero = () => {
             </button>
             <button
               className="normalbutton w-full mx-auto py-2 text-sm flex items-center justify-center gap-3"
-              onClick={handleClick}
+              onClick={handleTryClasses}
             >
               Checkout Classes <FaArrowRight />
             </button>

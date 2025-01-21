@@ -3,7 +3,7 @@ import bgImage from "../../assets/bgImage.webp";
 const Navigation = () => {
   return (
     <>
-      <div className="  flex flex-col  justify-center items-center relative  bg-blue-50  py-8 sm:py-8 px-4  ">
+      <div className="  flex flex-col  justify-center items-center relative  bg-blue-50  py-8 sm:py-12 px-4  ">
         <div className="absolute  ">
           <img src={bgImage} alt="" className="w-[550px] -z-20 opacity-15" />
         </div>
@@ -11,7 +11,7 @@ const Navigation = () => {
           <h1>Explore our range of programs & services</h1>
         </div>
 
-        <div className="  flex justify-center items-center  bg-blue-50">
+        <div className="  flex justify-center z-10  items-center  bg-blue-50">
           <div className="   text-center bg-white border border-black shadow-lg rounded-lg p-2 max-w-sm">
             <h2 className="text-xl font-bold text-gray-800 mb-6">
               Explore our programs on
