@@ -21,10 +21,10 @@ const Benefits = ({ benefits }) => {
                 <img
                   src={benefitObj.urlImage}
                   alt={benefitObj.benefit}
-                  className="w-[100px] rounded-sm object-contain"
+                  className="w-[120px] rounded-sm object-contain"
                 />
                 <div className="flex-1 overflow-hidden">
-                  <span className="text-base break-words">{benefitObj.benefit}</span>
+                  <span className="text-sm break-words">{benefitObj.benefit}</span>
                 </div>
               </div>
             </div>

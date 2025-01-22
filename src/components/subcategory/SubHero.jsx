@@ -7,7 +7,7 @@ const SubHero = ({ title, image, description,bgImage }) => {
   return (
     <div className="-z-50 max-h-[1080px] pt-0">
       <div className=" flex  flex-col-reverse md:flex-row justify-center mt-12  w-full md:px-0  md:pt-0 md:justify-between py-4 sm:py-0">
-        <section className="px-4 w-full sm:w-[60%] pb-16 mt-12  text-center sm:text-start   md:pt-4 md:px-8 md:w-1/2">
+        <section className="px-4 w-full sm:w-[60%] pb-16 mt-12  text-center sm:text-start   md:pt-8 md:px-8 md:w-1/2">
           <p className="font-bold uppercase  text-2xl sm:text-3xl  md:text-5xl xl:6xl">
             {title}
           </p>
