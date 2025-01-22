@@ -6,12 +6,12 @@ const Benefits = ({ benefits }) => {
   console.log(benefits.length);
   return (
     <section className="py-8  md:py-12 z-50 bg-blue-50 border border-gray-200">
-      <div className="px-4 sm:px-8 md:px-16 py-8">
+      <div className="px-4 sm:px-8 md:px-16 py-4 sm:py-8">
         <h3 className="text-2xl md:text-4xl font-bold mb-2">Key Features and Benefits</h3>
         <ArrowLine className="w-[300px] md:w-[450px] ml-8" />
       </div>
       <div className="flex justify-center items-center py-8">
-        <ul className="flex flex-col sm:flex-row flex-wrap auto-rows-fr px-2 sm:px-2 justify-center items-center mx-auto gap-6">
+        <ul className="flex flex-col sm:flex-row flex-wrap auto-rows-fr px-4 sm:px-2 justify-center items-center mx-auto gap-6">
           {benefits.map((benefitObj, index) => (
             <div
               key={index}

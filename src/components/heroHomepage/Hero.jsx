@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className={`relative max-w-[1920px] flex justify-around flex-col-reverse sm:flex-row py-8 mb-8 gap-4 sm:gap-8 w-full px-2 md:px-8 pt-8 sm:pt-32 ${open ? "blur-sm" : ""}`}>
+      <div className={`relative max-w-[1920px] flex justify-around flex-col-reverse sm:flex-row py-8 mb-8 gap-4 sm:gap-8 w-full px-2 md:px-8 pt-8 sm:pt-16 ${open ? "blur-sm" : ""}`}>
         <section className="justify-center px-8 pt-2 sm:pt-12 md:w-1/2 -ml-8">
           <p className="font-sans font-bold uppercase text-2xl ">ARog bharat</p>
           <p className="font-semibold text-2xl md:text-5xl">

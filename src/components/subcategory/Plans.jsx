@@ -15,7 +15,7 @@ const Plans = ({ plans }) => {
   ]
   return (
     <section className="bg-bgBlue  py-8 md:py-12 px-2 md:px-16 border border-gray-1">
-      <div className="flex flex-col px-8 py-8 ">
+      <div className="flex flex-col  py-8 ">
       <h3 className=" font-bold  text-2xl sm:text-4xl">Dakshina</h3>
       <ArrowLine className=" w-[140px] sm:w-[160px] ml-4"/>
       </div>

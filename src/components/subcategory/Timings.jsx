@@ -1,7 +1,7 @@
 import React from "react";
 import { FaClock } from "react-icons/fa";
 import ArrowLine from "../arrow/ArrowLine";
-
+import alarm from "../../assets/alarm.png";
 const Timings = () => {
   const morningBatches = [
     "5:30 a.m.",
@@ -13,43 +13,43 @@ const Timings = () => {
   const eveningBatches = ["5:00 p.m.", "6:00 p.m.", "7:00 p.m.", "8:00 p.m."];
 
   return (
-    <div className="bg-blue-50 py-10  px-2 sm:px-5 flex flex-col justify-center items-center">
-      <div className=" mb-8 flex flex-col sm:flex-row gap-8  sm:gap-36 md:gap-72 ">
+    <div className="bg-blue-50 py-10  px-2 sm:px-16 flex flex-col ">
+      <div className=" mb-8 flex flex-col sm:flex-row gap-80 items-center    ">
         <div className="flex flex-col  gap-1">
-          <h2 className="text-4xl font-bold text-gray-800 px-2">Timings</h2>
-          <ArrowLine className="w-[120px] md:w-[100px] ml-8" />
+          <h2 className="text-2xl sm:text-4xl font-bold text-gray-800 ">Timings</h2>
+          <ArrowLine className="w-[80px] md:w-[100px] ml-8" />
         </div>
 
-        <p className="text-black font-bold text-xl px-2">
+        <p className="text-black  font-bold text-2xl px-2">
           Multiple Batches (join as per convenience)
         </p>
       </div>
 
       {/* Morning Timings */}
-      <div className="bg-white shadow-md  w-full sm:w-8/12 flex  flex-col sm:flex-row gap-4 sm:gap-16 rounded-lg p-5 mb-6">
+      <div className="bg-white shadow-md  w-full lg:w-9/12 flex  flex-col sm:flex-row justify-center items-center mx-auto gap-4 sm:gap-12 rounded-lg px-4 py-6 mb-6">
         <h3 className="text-2xl my-auto font-semibold text-gray-800 bg-[#FFFDF1] inline-block px-4 py-2 rounded-md">
           Morning
         </h3>
-        <div className="flex   mt-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 justify-between gap-8  sm:gap-8   mt-4">
           {morningBatches.map((time, index) => (
-            <div key={index} className="flex flex-col gap-1 items-center">
-              <FaClock className="text-red-500 text-xl" />
-              <span className="text-gray-800">{time}</span>
+            <div key={index} className="flex gap-2 items-center">
+              <img src={alarm} alt="alarm" className="w-9 " />
+              <span className="text-gray-800 leading-none font-bold">{time}</span>
             </div>
           ))}
         </div>
       </div>
 
       {/* Evening Timings */}
-      <div className="bg-white shadow-md w-full sm:w-8/12  flex flex-col sm:flex-row gap-4 sm:gap-16  rounded-lg p-5">
+      <div className="bg-white shadow-md  w-full lg:w-9/12 flex  flex-col sm:flex-row justify-center items-center mx-auto gap-4 sm:gap-12 rounded-lg p-6 mb-6">
         <h3 className="text-2xl my-auto font-semibold text-gray-800 bg-[#FFFDF1] inline-block px-4 py-2 rounded-md">
           Evening
         </h3>
-        <div className="  flex  flex-row gap-4 sm:gap-16  mt-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 justify-between gap-8 sm:gap-8    mt-4">
           {eveningBatches.map((time, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <FaClock className="text-red-500 text-xl" />
-              <span className="text-gray-800">{time}</span>
+            <div key={index} className="flex gap-2 items-center">
+              <img src={alarm} alt="alarm" className="w-9 " />
+              <span className="text-gray-800 leading-none font-bold">{time}</span>
             </div>
           ))}
         </div>

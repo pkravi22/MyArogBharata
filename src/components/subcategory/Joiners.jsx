@@ -15,13 +15,13 @@ const Joiners = ({ joiners }) => {
     <>
       <div className="border border-gray-1 ">
         {validJoiners.length > 0 && (
-          <div className="bg-blue-50  py-4  pt-4 md:pt-8 px-6 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
-            <div className="w-full md:w-5/12 py-4">
-              <p className="text-2xl md:text-4xl font-bold mb-4">Who Should Join? </p>
-              <ArrowLine className=" w-[180px] md:w-[250px]  ml-16 sm:ml-24" />
+          <div className="bg-blue-50  py-4  pt-4 md:pt-8 px-2 sm:px-12 md:px-16 flex flex-col md:flex-row items-center gap-0 min-w-0">
+            <div className="w-full md:w-5/12 px-2 py-4">
+              <p className="text-2xl md:text-4xl font-bold mb-1">Who Should Join? </p>
+              <ArrowLine className=" w-[180px] md:w-[250px]  ml-16 sm:ml-12 md:ml-24" />
             </div>
             <div className="w-full md:w-7/12 mt-2">
-              <p className="font-bold text-xl">
+              <p className="font-bold text-xl px-2">
                 Embark on your journey to wellness and confidence—because a
                 healthier, happier YOU means a joyful, thriving MOM!
               </p>

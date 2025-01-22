@@ -8,10 +8,10 @@ const AboutUs = () => {
       {/* Heading Section */}
       <div className="w-full max-w-5xl px-4 sm:px-8 py-4  rounded-lg">
         <div className="flex flex-col  gap-1">
-          <h1 className="text-3xl sm:text-5xl font-bold text-gray-800">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">
             About Us
           </h1>
-          <ArrowLine className="w-[150px] md:w-[180px]  ml-16" />
+          <ArrowLine className="w-[150px] md:w-[160px]  ml-8" />
         </div>
       </div>
 
@@ -20,7 +20,7 @@ const AboutUs = () => {
         {/* Left Column */}
         <div className="flex flex-col gap-6">
           {/* Our Mission */}
-          <fieldset className="bg-[#f8f7f7] shadow-lg rounded-lg p-6 border border-orange-400">
+          <fieldset className="bg-[#f8f7f7] shadow-lg rounded-lg p-6 border  border-orange-400">
             <legend className="text-lg font-semibold text-black mb-2 px-2">
               Our Mission
             </legend>
@@ -64,7 +64,7 @@ const AboutUs = () => {
       </div>
 
       {/* Background Image */}
-      <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+      <div className="absolute top-20 inset-0 flex justify-center items-center pointer-events-none">
         <img
           src={bgImage}
           alt="Background"
