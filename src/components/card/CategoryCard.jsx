@@ -4,6 +4,7 @@ import { IoAlarmSharp } from "react-icons/io5";
 import { FaHeartbeat, FaSpa, FaUserFriends } from "react-icons/fa";
 import { MdOutlineSelfImprovement } from "react-icons/md";
 import LandingPage from "../../pages/landingPage/LandingPage";
+import Trial from "../trialModal/Trial";
 
 const CategoryCard = ({
   features,
@@ -16,13 +17,15 @@ const CategoryCard = ({
 }) => {
   console.log(categoryId, programId);
 const navigate=useNavigate();
+const [open, setOpen] = React.useState(false);
 
-const handleClick=(categoryId, programId)=>{
-  console.log(categoryId)
-return <LandingPage categoryId={categoryId} programId={programId}/>;
+const handleClick=()=>{
+  setOpen(!open);
+ console.log(open)
+return <Trial open={open}/>;
 }
   return (
-    <div className="card max-w-[519px] h-full ">
+    <div className=" relative card max-w-[519px] h-full ">
       <div className="border-2 border-[#F54C5A] rounded-md mx-auto shadow-lg p-2 bg-white max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105">
         <img
           src={imageSrc}
@@ -62,12 +65,15 @@ return <LandingPage categoryId={categoryId} programId={programId}/>;
                 More Details
               </Link>
             </button>
-            <button className="normalbutton text-sm px-6 md:px-8" onClick={() => {handleClick(categoryId,programId)}}>
+            <button className="normalbutton text-sm px-6 md:px-8" onClick={handleClick}>
               Click for Trial
             </button>
           </div>
         </div>
       </div>
+      {
+         <Trial open={open} setOpen={setOpen}/>
+      }
     </div>
   );
 };
