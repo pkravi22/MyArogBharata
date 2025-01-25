@@ -200,6 +200,7 @@ import holistic_benefit4 from "../assets/allImages/holistic/holistic/benefit/fro
 import holistic_benefit5 from "../assets/allImages/holistic/holistic/benefit/front-view-woman-practicing-facial-yoga 1 (4).webp";
 
 // why
+import holistic_why0 from "../assets/allImages/holistic/holistic/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1.webp";
 import holistic_why1 from "../assets/allImages/holistic/holistic/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (1).webp";
 import holistic_why2 from "../assets/allImages/holistic/holistic/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (2).webp";
 import holistic_why3 from "../assets/allImages/holistic/holistic/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (3).webp";
@@ -216,6 +217,9 @@ import male_benefit2 from "../assets/allImages/male/male/benefit/front-view-woma
 import male_benefit3 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-3.webp";
 import male_benefit4 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-4.webp";
 import male_benefit5 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-5.webp";
+import male_benefit6 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-6.webp";
+import male_benefit7 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-7.webp";
+import male_benefit8 from "../assets/allImages/male/male/benefit/front-view-woman-practicing-facial-yoga 1-8.webp";
 
 //why
 import male_why1 from "../assets/allImages/male/male/why/overworked-exhausted-tired-businessman-feel-pain-headache-migraine 1 (1).webp";
@@ -1181,7 +1185,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      programs: [
        {
          title: "Holistic General Fitness",
-         description: "Enhance mental health and overall well-being.",
+         description: "Transform your health with our affordable Online Yoga & Wellness Sessions, featuring live Yoga, Cardio, Pilates, Detox/Shatkarm, custom diet plans, counseling, and meditation. Join anytime with trial sessions and start your holistic fitness journey",
          subtitle:
            "Obesity/ Weight Loss/Flexibility/Anti-Ageing/ Body Toning/ Stress relief/ Fatigue/ Deep Relaxation  etc",
          subHeroImage: holisticSubHero,
@@ -1195,24 +1199,24 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          ],
          benefits: [
            {
-             benefit: "Restores body vitality",
+             benefit: "Live Yoga/Cardio/Pilates : Boost strength, endurance, and flexibility, while tackling pain.",
+             urlImage: holistic_benefit5,
+           },
+           {
+             benefit: "Detox : Cleanse your gut, eliminate toxins, and purify your body..",
              urlImage: holistic_benefit1,
            },
            {
-             benefit: "Supports physical recovery",
+             benefit: "Counseling : Gain clarity, motivation, and find the support to navigate your challenges.",
              urlImage: holistic_benefit2,
            },
            {
-             benefit: "Improves mental health",
+             benefit: "Personalized Diet Plan: Get the right nutrition, achieve a balanced weight, and optimize calories.",
              urlImage: holistic_benefit3,
            },
            {
-             benefit: "Helps with chronic illness management",
+             benefit: "Meditation & Healing : Restore mental, emotional, & spiritual balance &  release negative energy.",
              urlImage: holistic_benefit4,
-           },
-           {
-             benefit: "Improves mental health",
-             urlImage: holistic_benefit5,
            },
          ],
 
@@ -1225,21 +1229,30 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
                "Diabetes/B.P/Thyroid/Heart Issues/Sinusitis/Migraine/Asthma/ENT/Obesity etc",
              problem: [
                {
+                 url: holistic_why0,
+                 shortDescription: "Busy Professionals",
+                 moreDetails:"Find balance between work and wellness."
+               },
+               {
                  url: holistic_why1,
-                 shortDescription: "Diabetes care",
+                 shortDescription: "Fitness Warriors",
+                  moreDetails:"Break free from an unhealthy routine and get fit."
                },
                {
                  url: holistic_why2,
-                 shortDescription: "Blood pressure",
+                 shortDescription: "Detox Seekers",
+                  moreDetails:"Detox and tackle the root cause of health issues."
                },
                {
                  url: holistic_why3,
-                 shortDescription: "Cancer support",
+                 shortDescription: "Peaceful Souls",
+                 moreDetails:"Achieve peace and balance through healing meditation."
                },
                {
-                 url: holistic_why4,
-                 shortDescription: "Asthma management",
-               },
+                url: holistic_why4,
+                shortDescription: "Health Enthusiasts",
+                moreDetails:"Get a personalized  Diet Plan for better health and energy."
+              },
              ],
            },
          ],
@@ -1299,25 +1312,41 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
          ],
          benefits: [
            {
-             benefit: "Restores body vitality",
-             urlImage: emotional_benefit1,
+             benefit: "Yogic Kriyas : Boost Energy, Testosterone & Endurance",
+             urlImage: male_benefit8,
            },
            {
-             benefit: "Supports physical recovery",
-             urlImage: emotional_benefit2,
+             benefit: "Energy Locks(Bandhas) :  Prolong Ejaculation Up to 1 Hour",
+             urlImage: male_benefit4,
            },
            {
-             benefit: "Improves mental health",
-             urlImage: emotional_benefit3,
+             benefit: "Tantra and Yogic Mudras : Enhance intercourse stamina.",
+             urlImage: male_benefit7,
            },
            {
-             benefit: "Helps with chronic illness management",
-             urlImage: emotional_benefit4,
+             benefit: "Intercourse Breathing : Deepen pleasure with correct  Swara technique",
+             urlImage: male_benefit5,
            },
            {
-             benefit: "Improves mental health",
-             urlImage: emotional_benefit5,
+             benefit: "Kegel and Pelvic Strengthening : Strengthen reproductive health",
+             urlImage: male_benefit2,
            },
+           {
+            benefit: "Stamina diet plan : Nutrition for peak performance",
+            urlImage: male_benefit3,
+          },
+          {
+            benefit: "Kama Counselling: Master Tantra and Kamasutra secrets",
+            urlImage: male_benefit1,
+          },
+          {
+            benefit: "Mindfullness & Healing : Overcome anxiety and intensify pleasure",
+            urlImage: male_benefit6,
+          },
+          {
+            benefit: "Securing Privacy : User privacy is our top priority, ensuring the confidentiality of names and identitiess",
+            urlImage: male_benefit6,
+          },
          ],
 
          joiners: [
@@ -1328,28 +1357,44 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
              problem: [
                {
                  url: male_why1,
-                 shortDescription: "Diabetes care",
+                 shortDescription: "Premature ejaculation",
+                 moreDetails:"Struggling with control? Learn lasting techniques.",
                },
                {
                  url: male_why2,
-                 shortDescription: "Blood pressure",
+                 shortDescription: "Erectile dysfunction",
+                  moreDetails:"Improve blood flow and strength naturally.",
                },
                {
                  url: male_why3,
-                 shortDescription: "Cancer support",
+                 shortDescription: "Performance Pressure",
+                  moreDetails:"Overcome anxiety and enjoy intimacy.",
                },
                {
                  url: male_why4,
-                 shortDescription: "Asthma management",
+                 shortDescription: "Newlyweds",
+                  moreDetails:"Build confidence and enhance connection.",
                },
                {
                  url: male_why5,
-                 shortDescription: "Memory health",
+                 shortDescription: "Low libido",
+                  moreDetails:"Supports Hormonal balance, restore REPRODUCTIVE health",
                },
                {
                  url: male_why6,
-                 shortDescription: "Mental health",
+                 shortDescription: "Male Infertility",
+                  moreDetails:"Improve sperm production and reproductive health.",
                },
+               {
+                url: male_why7,
+                shortDescription: "Sensual Pleasure",
+                 moreDetails:"Unlock deeper satisfaction and intimacy",
+              },
+              {
+                url: male_why8,
+                shortDescription: "Low Testosterone",
+                 moreDetails:"Boost hormone levels effectively",
+              },
              ],
            },
          ],

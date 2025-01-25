@@ -12,23 +12,29 @@ const Benefits = ({ benefits }) => {
       </div>
       <div className="flex justify-center items-center py-8">
         <ul className="flex flex-col sm:flex-row flex-wrap auto-rows-fr px-4 sm:px-2 justify-center items-center mx-auto gap-6">
-          {benefits.map((benefitObj, index) => (
-            <div
-              key={index}
-              className="bg-white w-full sm:w-1/2 md:w-1/3 lg:w-[30%] flex flex-row rounded-md gap-4 h-full border"
-            >
-              <div className="bg-white h-full flex flex-row rounded-md gap-3 p-2">
-                <img
-                  src={benefitObj.urlImage}
-                  alt={benefitObj.benefit}
-                  className="w-[120px] rounded-sm object-contain"
-                />
-                <div className="flex-1 overflow-hidden">
-                  <span className="text-sm break-words">{benefitObj.benefit}</span>
+        {benefits.map((benefitObj, index) => {
+            const [beforeColon, afterColon] = benefitObj.benefit.split(":");
+            return (
+              <div
+                key={index}
+                className="bg-white w-full sm:w-1/2 md:w-5/12 lg:w-[30%] flex flex-row rounded-lg gap-2 h-full border  shadow-md"
+              >
+                <div className="bg-white h-full flex rounded-md gap-3 p-2">
+                  <img
+                    src={benefitObj.urlImage}
+                    alt={benefitObj.benefit}
+                    className="w-[100px] rounded-sm object-contain"
+                  />
+                  <div className="flex-1 overflow-hidden">
+                    <span className="text-base break-words">
+                      <span className="font-semibold">{beforeColon}:</span>
+                      <span className="font-normal">{afterColon}</span>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </ul>
       </div>
     </section>

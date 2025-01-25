@@ -44,10 +44,10 @@ const Joiners = ({ joiners }) => {
                   className="w-[100px] md:w-full object-cover rounded-t-sm bg-white"
                 />
                 <div className="flex flex-col">
-                  <p className="py-1 px-2 text-sm truncate">
+                  <p className="py-1 px-1 text-sm font-bold text-center truncate">
                     {problem.shortDescription}
                   </p>
-                  <h1 className="text-xs px-2">
+                  <h1 className="text-xs text-center px-1">
                   {problem.moreDetails}
                   </h1>
                 </div>

@@ -9,9 +9,9 @@ import ArrowLine from "../arrow/ArrowLine";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-16">
+    <footer className="bg-white pt-16 pb-6" id="footer">
       <div className="mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 text-center lg:text-left pb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 text-center lg:text-left pb-16">
           {/* Logo and Social Media */}
           <div className="flex flex-col items-center justify-center">
             <img

@@ -22,6 +22,7 @@ import Landingpage2 from "./pages/landingPage/Landingpage2";
 import Landingpage3 from "./pages/landingPage/Landingpage3";
 import Landingpage4 from "./pages/landingPage/Landingpage4";
 import AboutUs from "./components/about/About";
+import Home1 from "./pages/home/Home1";
 const App1 = () => {
   
   return (
@@ -37,13 +38,7 @@ const App1 = () => {
         <Route
           path="/"
           element={
-            <>
-              <Hero />
-              <AboutUs/>
-              <Navigation/>
-              
-              <Services categories={Category} />
-            </>
+            <Home1 Category={Category}/>
           }
         />
           {Category.map((category, index) => (
@@ -62,6 +57,7 @@ const App1 = () => {
         <Route path="/landingpage2" element={<Landingpage2/>}/>
         <Route path="/landingpage3" element={<Landingpage3/>}/>
         <Route path="/landingpage4" element={<Landingpage4/>}/>
+        <Route path="/landingpage" element={<LandingPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
