@@ -56,6 +56,7 @@ const App1 = () => {
           ))
         ))}
         <Route path="/about" element={<About/>}/>
+      
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/landingpage1" element={<LandingPage1/>}/>
         <Route path="/landingpage2" element={<Landingpage2/>}/>

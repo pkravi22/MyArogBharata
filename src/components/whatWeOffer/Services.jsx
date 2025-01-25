@@ -6,7 +6,7 @@ import ArrowLine from "../arrow/ArrowLine";
 const Services = ({ categories }) => {
   console.log(categories);
   return (
-    <div className="bg-blue-50  py-2 px-2 sm:py-16  " id="services">
+    <div className="bg-blue-50  py-2 px-2 sm:py-16  " id="offerings">
       {categories.map((category, idx) => (
         <div
           key={category.title}

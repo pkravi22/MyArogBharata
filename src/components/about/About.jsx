@@ -4,7 +4,7 @@ import ArrowLine from "../arrow/ArrowLine";
 
 const AboutUs = () => {
   return (
-    <div className="bg-blue-50 relative min-h-screen flex flex-col items-center justify-center py-10 px-6">
+    <div className="bg-blue-50 relative min-h-screen flex flex-col items-center justify-center py-10 px-6" id="about">
       {/* Heading Section */}
       <div className="w-full max-w-5xl px-4 sm:px-8 py-4  rounded-lg">
         <div className="flex flex-col  gap-1">

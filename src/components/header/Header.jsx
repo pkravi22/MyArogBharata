@@ -14,7 +14,9 @@ const Header = () => {
     <header className="bg-white fixed w-full opacity-100 py-1 shadow-md flex items-center justify-between px-6 md:px-16 z-50">
       {/* Logo */}
       <div className={`w-[200px] py-1 h-auto sm:w-[355px] xl:w-[455px] sm:h-auto] `}>
+        <Link to="/">
         <img src={logo} alt="Logo" className="w-full" />
+        </Link>
       </div>
 
 
@@ -37,12 +39,12 @@ const Header = () => {
         <ul className="flex flex-col gap-4 justify-start  sm:flex-row  text-sm  ">
           <li>
             
-            <Link to="/about" className=" hover:text-blue-500 cursor-pointer"
+            <Link to="#about" className=" hover:text-blue-500 cursor-pointer"
             onClick={() => setIsMenuOpen(false)} // Close menu on click
           > About</Link>
           </li>
           <li>
-          <Link to="/" className=" hover:text-blue-500 cursor-pointer"
+          <Link to="/offerings" className=" hover:text-blue-500 cursor-pointer"
             onClick={() => setIsMenuOpen(false)} // Close menu on click
           >    Offerings</Link>
        
