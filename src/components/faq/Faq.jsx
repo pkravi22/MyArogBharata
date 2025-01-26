@@ -55,29 +55,28 @@ const FAQ = ({image}) => {
   ];
 
   const toggleAnswer = (id) => {
+    console.log("clicked")
     setOpenId(openId === id ? null : id);
   };
 
   return (
     <>
       <div className=" relative p-4 md:p-16 lg:p-32  flex flex-col justify-end  items-end sm:flex-row bg-blue-50 gap-8 border border-gray-1">
-        <div className="absolute  opacity-25 lg:opacity-100  left-20 bottom-0  sm:
+        <div className="absolute  opacity-25  lg:opacity-100  left-20 bottom-0  sm:
       ">
           <img src={image} alt="" className="w-[500px]  " />
         </div>
-        <div className="absolute   ">
-          <img src={image} alt="" className="w-[450px] -z-20 opacity-0" />
-        </div>
+        
 
         <div className="space-y-4 w-full sm:w-2/3 lg:w-1/2 max-w-[500px] flex flex-col  ">
           <h1 className="text-3xl mb-12">FAQ's</h1>
           {faqData.map((item) => (
             <div
               key={item.id}
-              className="border-none rounded-2xl  pb-0 cursor-pointer  flex flex-col "
+              className="border-none rounded-2xl  pb-0   flex flex-col "
             >
               <div
-                className={`flex  justify-between items-center font-medium text-base leading-normal px-4 py-2 ${
+                className={`flex cursor-pointer justify-between items-center font-medium text-base leading-normal px-4 py-2 ${
                   openId === item.id
                     ? "rounded-tl-lg rounded-tr-lg "
                     : "rounded-lg"
