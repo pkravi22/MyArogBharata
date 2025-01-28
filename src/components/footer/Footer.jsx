@@ -52,10 +52,10 @@ const Footer = () => {
           </div>
 
           {/* Services and Explore */}
-          <div className="flex justify-around lg:justify-between">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-800">Services</h3>
-              <ul className="mt-4 space-y-2">
+          <div className="flex   justify-center sm:justify-around gap-12 lg:justify-between">
+            <div className="">
+              <h3 className="text-lg font-semibold text-start  text-gray-800">Services</h3>
+              <ul className="mt-4 flex flex-col text-start space-y-2">
                 <li>
                   <a
                     href="#"

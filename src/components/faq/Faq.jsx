@@ -62,7 +62,7 @@ const FAQ = ({image}) => {
   return (
     <>
       <div className=" relative p-4 md:p-16 lg:p-32  flex flex-col justify-end  items-end sm:flex-row bg-blue-50 gap-8 border border-gray-1">
-        <div className="absolute  opacity-25  lg:opacity-100  left-20 bottom-0  sm:
+        <div className="absolute hidden  opacity-25  lg:opacity-100  left-20 bottom-0  sm:
       ">
           <img src={image} alt="" className="w-[500px]  " />
         </div>

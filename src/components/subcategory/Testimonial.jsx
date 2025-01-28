@@ -35,7 +35,7 @@ const Testimonial = ({ testimonials,color }) => {
       <div className=" mx-auto  px-4 sm:px-8">
         <h2 className=" text-2xl sm:text-4xl sm:px-8 font-bold  mb-6">
           Listen from our users
-          <ArrowLine className=" w-full md:w-[320px]  ml-16 sm:ml-24" />
+          <ArrowLine className="   w-[220px] md:w-[320px]  ml-16 sm:ml-24" />
         </h2>
         <div className="relative">
           <div
@@ -48,7 +48,11 @@ const Testimonial = ({ testimonials,color }) => {
             }}
           >
             {testimonials.map((testimonial, index) => (
-              <TestimonialCard key={index} testimonial={testimonial} color={color}/>
+              <TestimonialCard
+                key={index}
+                testimonial={testimonial}
+                color={color}
+              />
             ))}
           </div>
         </div>
