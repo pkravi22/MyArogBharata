@@ -2,7 +2,7 @@ import React from 'react'
 import Registration from '../../components/Webinar/Registration'
 import HeroWebinar from '../../components/Webinar/HeroWebinar'
 import Feedback from '../../components/Webinar/Feedback'
-import Services from '../../components/landingpage/Services'
+
 
 import Category from "../../data/courses";
 
@@ -11,6 +11,7 @@ import Benefits from '../../components/Webinar/Benefits'
 import Testimonial from '../../components/Webinar/Testimonial'
 import WebinarFooter from '../../components/Webinar/WebinarFooter'
 import FAQ from '../../components/Webinar/Faq'
+import Services from '../../components/Webinar/Services';
 const Webinar = () => {
     console.log(Category[0].programs[1]);
     const benefits = Category[3].programs[0].benefits;
