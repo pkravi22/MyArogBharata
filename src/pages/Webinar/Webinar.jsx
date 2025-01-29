@@ -9,6 +9,8 @@ import Category from "../../data/courses";
 import Joiners from '../../components/Webinar/Joiners'
 import Benefits from '../../components/Webinar/Benefits'
 import Testimonial from '../../components/Webinar/Testimonial'
+import WebinarFooter from '../../components/Webinar/WebinarFooter'
+import FAQ from '../../components/Webinar/Faq'
 const Webinar = () => {
     console.log(Category[0].programs[1]);
     const benefits = Category[3].programs[0].benefits;
@@ -34,8 +36,11 @@ const Webinar = () => {
         <Benefits benefits={benefits} />
         
         </div>
+
         <Testimonial testimonials={testimonials}/>
-       
+        <Registration/>
+        <FAQ/>
+       <WebinarFooter/>
     </div>
   )
 }

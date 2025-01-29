@@ -14,7 +14,7 @@ const Timings = () => {
 
   return (
     <div className="bg-blue-50  py-6 sm:py-10  px-4 sm:px-16 flex flex-col ">
-      <div className=" mb-8 flex flex-col sm:flex-row sm:gap-80 gap-4  justify-start sm:items-center py-4">
+      <div className=" mb-8 flex flex-col sm:flex-row sm:gap-80 lg:gap-96 gap-4  justify-start sm:items-center py-4">
         <div className="flex flex-col  gap-1">
           <h2 className="text-2xl sm:text-4xl font-bold text-gray-800 ">Timings</h2>
           <ArrowLine className="w-[80px] md:w-[100px] ml-8" />

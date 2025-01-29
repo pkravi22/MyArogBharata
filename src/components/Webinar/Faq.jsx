@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import bgImage from "../../assets/bgImage.webp";
+import bgImage from "../../assets/webinarImages/ques.webp";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
+import Registration from "./Registration";
 const FAQ = ({image}) => {
   const [openId, setOpenId] = useState(null);
 
@@ -40,18 +41,7 @@ const FAQ = ({image}) => {
       question: "Do I need to be fit to start Yoga?",
       answer: "No, Yoga is for everyone regardless of fitness level.",
     },
-    {
-      id: 7,
-      question: "Can I practice Yoga if I have an injury?",
-      answer:
-        "You can practice Yoga, but it's important to consult a doctor and inform your instructor about the injury.",
-    },
-    {
-      id: 8,
-      question: "Is Yoga spiritual?",
-      answer:
-        "Yoga has spiritual aspects, but it's also a physical and mental practice that can be enjoyed by everyone.",
-    },
+    
   ];
 
   const toggleAnswer = (id) => {
@@ -61,15 +51,15 @@ const FAQ = ({image}) => {
 
   return (
     <>
-      <div className=" relative p-4 md:p-16 lg:p-32  flex flex-col justify-end  items-end sm:flex-row bg-blue-50 gap-8 border border-gray-1">
-        <div className="absolute hidden sm:block  opacity-25  lg:opacity-100  left-20 bottom-0  sm:
+      <div className="mt-16 relative p-4 md:p-16 lg:p-8  flex flex-col justify-end  items-end sm:flex-row bg-[#5097D1] gap-8 border border-gray-1">
+        <div className="absolute hidden sm:block  opacity-25  lg:opacity-100  left-20 bottom-28  sm:
       ">
-          <img src={image} alt="" className="w-[500px]  " />
+          <img src={bgImage} alt="" className="w-[400px]  " />
         </div>
         
 
-        <div className="space-y-4 w-full sm:w-2/3 lg:w-1/2 max-w-[500px] flex flex-col  ">
-          <h1 className="text-3xl mb-12">FAQ's</h1>
+        <div className="space-y-8 w-full sm:w-2/3 lg:w-3/4 max-w-[700px] flex flex-col  ">
+          <h1 className="text-3xl text-white mb-12">FAQ's</h1>
           {faqData.map((item) => (
             <div
               key={item.id}
@@ -85,6 +75,7 @@ const FAQ = ({image}) => {
               >
                 <p className="">{item.question}</p>
                 <span>
+
                   <RiArrowDropDownLine size={30} />
                 </span>
               </div>
@@ -96,13 +87,16 @@ const FAQ = ({image}) => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="text-md mt-0 px-4  text-[#4479A4] bg-white py-1 pr-4 rounded-b-2xl">
+                <div className="text-md mt-0 px-4  text-[#349cf0] bg-blue-100 py-1 pr-4 rounded-b-2xl">
                   {item.answer}
                 </div>
               </div>
             </div>
           ))}
+          <div className="mb-8"><Registration/></div>
+          
         </div>
+
       </div>
     </>
   );

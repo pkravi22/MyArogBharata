@@ -60,11 +60,14 @@ return <Trial open={open}/>;
             ))}
           </ul>
           <div className="flex w-full justify-between">
+            
             <button className="coloredbutton text-sm px-6 md:px-8">
-              <Link to={`/services/${categoryId}/${programId}`}>
-                More Details
-              </Link>
-            </button>
+  <Link to={`/services/${categoryId}/${programId}`} onClick={() => window.scrollTo(0, 0)}>
+    More Details
+  </Link>
+</button>
+
+          
             <button className="normalbutton text-sm px-6 md:px-8" onClick={handleClick}>
               Click for Trial
             </button>

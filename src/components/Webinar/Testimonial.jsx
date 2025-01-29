@@ -27,7 +27,7 @@ const TestimonialCard = ({ testimonial }) => (
 
 const Testimonial = ({ testimonials, color }) => {
   return (
-    <section className="py-10 relative">
+    <section className="py-16 relative">
       {/* Absolute Background Image */}
       <div className="absolute flex justify-center top-44 items-center inset-0 z-0">
         <img src={bg} alt=""  className="w-[600px]  bg-red z-50"/>
