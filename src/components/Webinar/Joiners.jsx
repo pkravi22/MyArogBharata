@@ -13,10 +13,10 @@ const Joiners = ({ joiners }) => {
 
   return (
     <>
-      <div className="py-16">
+      <div className="py-4 md:py-16">
         {validJoiners.length > 0 && (
           <div className="flex flex-col items-center justify-center">
-            <h2 className="text-3xl w-[60%] text-center font-bold text-gray-1 text-white py-8">
+            <h2 className="text-3xl  w-full md:w-[60%] text-center font-bold text-gray-1 text-white py-8">
               WHO SHOULD ATTEND THIS MENS SEXUAL WELLNESS WORKSHOP
             </h2>
           </div>
@@ -25,18 +25,18 @@ const Joiners = ({ joiners }) => {
         {/* Ensure problems is an array before rendering */}
         {problems.length > 0 ? (
           <div
-            className="grid grid-cols-2  bg-[#5097D1] gap-4 
-          pb-8 md:pb-16 justify-center  mx-auto px-4"
+            className="grid grid-cols-1 md:grid-cols-2  bg-[#5097D1] gap-4 
+          pb-8 md:pb-16 justify-center  mx-auto px-1 md:px-4"
           >
             {problems.map((problem, index) => (
               <div
                 key={index}
-                className="bg-white flex p-2 w-[500px] rounded-md border shadow"
+                className="bg-white flex p-1 md:p-2  w-full md:w-[500px] rounded-md border shadow"
               >
                 <img
                   src={problem.url}
                   alt={problem.altText || "Problem Image"}
-                  className="w-[200px] h-[160px] rounded-t-sm "
+                  className=" w-1/3 md:w-[200px] md:h-[160px] rounded-t-sm "
                 />
                 <div className="flex flex-col pl-2">
                   <p className="py-1 px-1 text-xl font-bold text-start truncate">
