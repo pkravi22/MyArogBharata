@@ -3,8 +3,10 @@ import frame1 from "../../assets/Group 4.png";
 import frame2 from "../../assets/Group 6.png";
 import frame3 from "../../assets/Group 7.png";
 import frame4 from "../../assets/Group 10.png";
+import Registration from "./Registration";
 const Services = () => {
   return (
+    <div className="flex flex-col gap-8 items-center justify-center">
     <div class="grid grid-cols-2 r text-white justify-center md:grid-cols-4  font-sans  px-0 sm:px-8  pt-0 md:pt-8 pb-0 md:pb-4 ">
       <div class="flex gap-1 sm:gap-2 items-center p-0 md:p-4 ">
         <div class="text-4xl  bg-white  p-1 md:p-2 rounded-sm">
@@ -48,6 +50,10 @@ const Services = () => {
           <p class="">Breathing</p>
           <p class=" ">Techniques</p>
         </div>
+      </div>
+      </div>
+      <div>
+        <Registration />
       </div>
     </div>
   );

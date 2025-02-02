@@ -1,6 +1,7 @@
 import React from "react";
 import ArrowLine from "../arrow/ArrowLine";
 import benefitpic from "../../assets/exer.webp";
+import Registration from "./Registration";
 
 // Default props to ensure joiners is an empty array by default
 const Joiners = ({ joiners }) => {
@@ -13,7 +14,7 @@ const Joiners = ({ joiners }) => {
 
   return (
     <>
-      <div className="py-4 md:py-16">
+      <div className="py-4 md:py-4">
         {validJoiners.length > 0 && (
           <div className="flex flex-col items-center justify-center">
             <h2 className="text-3xl  w-full md:w-[60%] text-center font-bold text-gray-1 text-white py-8">
@@ -36,7 +37,7 @@ const Joiners = ({ joiners }) => {
                 <img
                   src={problem.url}
                   alt={problem.altText || "Problem Image"}
-                  className=" w-1/3 md:w-[200px] md:h-[160px] rounded-t-sm "
+                  className=" w-1/3 md:w-[120px]  rounded-t-sm "
                 />
                 <div className="flex flex-col pl-2">
                   <p className="py-1 px-1 text-xl font-bold text-start truncate">
@@ -54,6 +55,9 @@ const Joiners = ({ joiners }) => {
             <p className="text-gray-500">No problems to display</p>
           </div>
         )}
+      </div>
+      <div>
+        <Registration/>
       </div>
     </>
   );

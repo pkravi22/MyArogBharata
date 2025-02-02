@@ -14,7 +14,9 @@ module.exports = {
       },
       fontFamily: {
         comfortaa: ["Comfortaa", "sans-serif"],
-        roboto:["Roboto"]
+        roboto:["Roboto"],
+        inter:["Inter"]
+
       },
       animation: {
         scroll: "scroll-horizontal 12s ease-out infinite",

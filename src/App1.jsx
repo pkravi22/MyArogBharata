@@ -24,6 +24,7 @@ import Landingpage4 from "./pages/landingPage/Landingpage4";
 import AboutUs from "./components/about/About";
 import Home1 from "./pages/home/Home1";
 import Webinar from "./pages/Webinar/Webinar";
+import Login from "./pages/login/Login";
 const App1 = () => {
   
   return (
@@ -60,6 +61,7 @@ const App1 = () => {
         <Route path="/landingpage4" element={<Landingpage4/>}/>
         <Route path="/landingpage" element={<LandingPage/>}/>
         <Route path="/webinar" element={<Webinar/>}/>
+        <Route path="/login" element={<Login/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

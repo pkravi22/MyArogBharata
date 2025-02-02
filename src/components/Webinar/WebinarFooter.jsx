@@ -3,8 +3,8 @@ import FooterLogo from "../../assets/footerLogo.webp";
 const WebinarFooter = () => {
   return (
     <>
-      <div className="flex justify-center h-[556px] w-screen items-center ">
-        <img src={FooterLogo} alt="footer logo" />
+      <div className="flex justify-center items-center  py-12 ">
+        <img src={FooterLogo} alt="footer logo" className="w-[500px]" />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import youtube from "../../assets/webinarImages/youtube.png";
+import Registration from "./Registration";
 
 const feedbackData = [
   {
@@ -42,8 +43,8 @@ const feedbackData = [
 
 const FeedbackCard = ({ title, description }) => {
   return (
-    <div className="relative flex flex-col gap-2 z-0 rounded-[20px] border border-gray-500 bg-white p-4">
-      <div className="opacity-100 rounded-[15px_15px_0px_0px] w-full h-[200px] bg-[#686868]"></div>
+    <div className="relative flex flex-col gap-2 z-0 rounded-[10px] border border-gray-500 bg-white p-4">
+      <div className="opacity-100 rounded-[5px_5px_0px_0px] w-full h-[200px] bg-[#686868]"></div>
       <div className="text-md font-semibold leading-[normal] flex items-center py-2 tracking-normal text-black">
         {title}
       </div>
@@ -59,7 +60,7 @@ const FeedbackCard = ({ title, description }) => {
 
 const Feedback = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-8">
+    <div className="flex flex-col gap-8 justify-center items-center py-8">
       <div className=" text-xl sm:text-3xl py-4  w-full md:w-[65%] text-center text-white font-bold">
         HEAR FROM OUR HAPPY CUSTOMER’S WHICH ATTENDED THIS WEBINAR
       </div>
@@ -68,6 +69,10 @@ const Feedback = () => {
           <FeedbackCard key={feedback.id} title={feedback.title} description={feedback.description} />
         ))}
       </div>
+      <div>
+      <Registration/>
+      </div>
+      
     </div>
   );
 };

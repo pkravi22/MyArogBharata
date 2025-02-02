@@ -28,12 +28,12 @@ const Webinar = () => {
         <HeroWebinar/>
         <div className='flex flex-col mb-8 gap-4 bg-[#5097D1] px-4 md:px-16'>
         <Feedback/>
-        <Registration/>
+        
         <div className='my-16'><Services className="bg-blue-700"/></div>
         
-        <Registration/>
+       
         <Joiners joiners={joiners} />
-        <Registration/>
+        
         <Benefits benefits={benefits} />
         
         </div>
