@@ -25,6 +25,11 @@ import AboutUs from "./components/about/About";
 import Home1 from "./pages/home/Home1";
 import Webinar from "./pages/Webinar/Webinar";
 import Login from "./pages/login/Login";
+import Profile from "./pages/doctorDashboard/Profile";
+import Membership from "./pages/doctorDashboard/Membership";
+import ProfilePage from "./pages/doctorDashboard/ProfilePage";
+import Admin from "./pages/adminDashboard/Admin";
+import User from "./pages/userDashboard/User";
 const App1 = () => {
   
   return (
@@ -62,6 +67,13 @@ const App1 = () => {
         <Route path="/landingpage" element={<LandingPage/>}/>
         <Route path="/webinar" element={<Webinar/>}/>
         <Route path="/login" element={<Login/>}/>
+       
+        <Route path="/profile" element={<ProfilePage/>}/>
+        <Route path="/profile/membership" element={<ProfilePage/>}/>
+        <Route path="/admin/doctors" element={<Admin/>}/>
+        <Route path="/admin/patients" element={<Admin/>}/>
+        <Route path="/user" element={<User/>}/>
+        
         </Routes>
         <Footer/>
       </BrowserRouter>

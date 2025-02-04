@@ -4,9 +4,9 @@ import logo from "../../assets/footerLogo.webp";
 const Login = () => {
   return (
     <>
-    <div className='flex flex-col-inverse sm:flex-row justify-center items-center font-inter p-4 md:p-4 '>
+    <div className='flex flex-col-reverse md:flex-row justify-center  items-center font-inter p-2 md:p-12 '>
         {/* form */}
-        <div className='mt-4 flex   w-full md:w-1/2 flex-col gap-4 md:border-r-2 border-gray-300 justify-center items-center'>
+        <div className='mt-6 flex   w-full md:w-1/2 flex-col gap-4 md:border-r-2 border-gray-300 justify-center items-center'>
             <div>
                 <h1 className='text-4xl  leading-[normal] text-center flex items-center tracking-normal text-[#1F1F1F] uppercase font-bold '>Login</h1>
                
@@ -31,7 +31,7 @@ const Login = () => {
             </div>
         </div>
         {/* logo */}
-        <div className=' h-screen  flex w-full md:w-1/2 p-16 justify-center items-center'>
+        <div className='   flex w-full md:w-1/2 p-8  md:p-16 justify-center items-center'>
             <img src={logo} alt="logo" className='w-[400px]' />
         </div>
     </div>
