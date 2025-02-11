@@ -31,6 +31,10 @@ const Doctors = () => {
             <p>Start Date</p>
             <p>13May 2025</p>
           </div>
+          <div className="flex justify-between items-center mt-4">
+            <div className="bg-blue-500 rounded-sm px-4 py-1 text-white"><button >Add Patients</button></div>
+            <div className="rounded-sm border-[1.2px] border-blue-500 px-4 py-1 text-blue-500 font-medium"><button className="">Remove Doctor</button></div>
+          </div>
         </div>
       </div>
     </div>

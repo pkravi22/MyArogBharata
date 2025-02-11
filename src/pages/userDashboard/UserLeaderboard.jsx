@@ -3,31 +3,46 @@ import cooker from "../../assets/cooker.png";
 const UserLeaderboard = () => {
   return (
     <div className="pt-8 flex flex-col gap-4">
-      <h1 className="text-3xl text-center">Rewards</h1>
-      <div className="flex gap-8 px-12">
-        <div className="flex flex-col justify-center items-center">
-            <p className="text-3xl">1</p>
-          <div className="p-8 border flex flex-col justify-center items-centerl border-black rounded-lg">
-            <img src={cooker} alt="" />
+      <h1 className="text-3xl text-center mb-20 ">Rewards</h1>
+      <div className="flex gap-4 px-12 py-8 border-b-2 border-black mx-8">
+        <div className="flex flex-col relative border border-blue-500 p-8 rounded-xl justify-center items-center">
+           
+          <div className="p-8   border flex flex-col justify-center items-centerl border-black rounded-lg">
+            <img src={cooker} alt="" className="w-[200px]"/>
             <p className="text-xl font-semibold text-center">Pressure Cooker</p>
+            
           </div>
+          <div className="absolute -top-20 bg-white text-2xl px-2 left-28 flex flex-col justify-center items-center">
+          <p className="text-5xl mb-4 font-bold">1</p>
+          <p>Place</p>
+           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-            <p className="text-3xl">2</p>
-          <div className="p-8 border flex flex-col justify-center items-centerl border-black rounded-lg">
-            <img src={cooker} alt="" />
+        <div className="flex flex-col relative border border-blue-500 p-8 rounded-xl justify-center items-center">
+           
+          <div className="p-8   border flex flex-col justify-center items-centerl border-black rounded-lg">
+            <img src={cooker} alt="" className="w-[200px]"/>
             <p className="text-xl font-semibold text-center">Pressure Cooker</p>
+            
           </div>
+          <div className="absolute -top-20 bg-white text-2xl px-2 left-28 flex flex-col justify-center items-center">
+          <p className="text-5xl mb-4 font-bold">2</p>
+          <p>Place</p>
+           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-            <p className="text-3xl">3</p>
-          <div className="p-8 border flex flex-col justify-center items-centerl border-black rounded-lg">
-            <img src={cooker} alt="" />
+        <div className="flex flex-col relative border border-blue-500 p-8 rounded-xl justify-center items-center">
+           
+          <div className="p-8   border flex flex-col justify-center items-centerl border-black rounded-lg">
+            <img src={cooker} alt="" className="w-[200px]"/>
             <p className="text-xl font-semibold text-center">Pressure Cooker</p>
+            
           </div>
+          <div className="absolute -top-20 bg-white text-2xl px-2 left-28 flex flex-col justify-center items-center">
+          <p className="text-5xl mb-4 font-bold ">3</p>
+          <p>Place</p>
+           </div>
         </div>
       </div>
-      <hr />
+      
       <div className="flex flex-col gap-2 px-12">
         <h1 className="text-3xl text-center">LeaderBoard</h1>
         <div className="flex rounded-lg border border-black p-2  ">
