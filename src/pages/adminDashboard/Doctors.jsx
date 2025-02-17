@@ -2,16 +2,20 @@ import React from "react";
 import user from "../../assets/user.webp";
 const Doctors = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8 font-inter">
-      <div className="flex flex-col gap-6 border justify-start border-black p-4 rounded-md">
-        <div className="flex jsutify-center items-center gap-4">
+    <>
+    <div className="grid  gap-4 py-8 font-inter mx-4 mt-4">
+      <div className="grid grid-cols-3 gap-6 border justify-start p-4 rounded-md">
+       {[1,2,3,4,5,6].map((_,index)=>{
+       return (
+        <div key={index} className=" flex flex-col gap-4 border border-black p-3 rounded-lg">
+        <div className="flex jsutify-center  items-center gap-2">
           <div>
-            <img src={user} alt="" className="w-[100px]" />
+            <img src={user} alt="" className="w-[80px]" />
           </div>
           <div>
-            <p>Pratiskha devi</p>
-            <p>Engineer</p>
-            <p>Noida ,UP</p>
+            <p>Prerna Aggarwal</p>
+            <p>Jaspal Hospital</p>
+            <p>Kurukshetra, Haryana</p>
           </div>
         </div>
         <div>
@@ -31,13 +35,18 @@ const Doctors = () => {
             <p>Start Date</p>
             <p>13May 2025</p>
           </div>
-          <div className="flex justify-between items-center mt-4">
-            <div className="bg-blue-500 rounded-sm px-4 py-1 text-white"><button >Add Patients</button></div>
-            <div className="rounded-sm border-[1.2px] border-blue-500 px-4 py-1 text-blue-500 font-medium"><button className="">Remove Doctor</button></div>
+          <div className="flex justify-between items-center gap-2 mt-4">
+            <div className="bg-blue-500 rounded-sm px-2 py-1 text-white"><button >Add Patients</button></div>
+            <div className="rounded-sm border-[1.2px] border-blue-500 px-2 py-1 text-blue-500 font-medium"><button className="">Remove Doctor</button></div>
           </div>
         </div>
+        </div>
+       )
+       })} 
       </div>
     </div>
+   
+    </>
   );
 };
 

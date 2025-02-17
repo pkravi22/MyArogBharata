@@ -1,5 +1,5 @@
 import React from "react";
-import benefitpic from "../../assets/benefit.webp";
+
 import ArrowLine from "../arrow/ArrowLine";
 
 const Benefit = ({ benefits }) => {

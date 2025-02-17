@@ -9,7 +9,7 @@ const UserProfile = () => {
       .catch((err) => console.error("Failed to copy:", err));
   };
   return (
-    <div className="font-inter px-8">
+    <div className="font-inter px-8 py-8">
       <div className="flex min-h-screen  gap-8 py-0 pt-8  ">
         {/* naviagtion bar */}
 
@@ -17,11 +17,11 @@ const UserProfile = () => {
           {/* Profile */}
           <div className="flex gap-10  bg-[#DCEEFF] p-4  rounded-3xl max-h-[240px]">
             <img src={profile} alt="" className="h-[200px] w-[200px] rounded-3xl"/>
-            <div className="flex flex-col gap-2 justify-center mt-2 leading-[1.5]">
+            <div className="flex flex-col gap-2 justify-center mt-2 leading-[1.3]">
               <p className="text-[#041FA8] text-3xl font-bold">HOLISTIC GENERAL FITNESS</p>
-              <p className="text-[20px]">Welcome</p>
-              <p className="text-3xl font-medium">Dr.Sanjay</p>
-              <p className="font-medium text-[24px] ">Lawyer</p>
+              <p className="text-[24px] font-medium">Welcome</p>
+              <p className="text-3xl font-medium">Dr.Sanjay Srivastava</p>
+              <p className="font-medium text-[24px] -mt-2 ">Lawyer</p>
               <p className="text-slate-500">
                 Badlapur 
                 Maharashtra
@@ -48,7 +48,7 @@ const UserProfile = () => {
             </div>
           </div>
           {/* program */}
-          <div className="w-[80%] flex flex-col gap-2 border border-black p-4 rounded-lg ">
+          <div className="w-[80%] mt-4 flex flex-col gap-2 border border-black p-6 rounded-lg ">
             <p>
               Share the code with your friends and family and increase your
               chances fir referrals

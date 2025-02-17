@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowLine from "../arrow/ArrowLine";
-import benefitpic from "../../assets/exer.webp";
+
 
 // Default props to ensure joiners is an empty array by default
 const Joiners = ({ joiners }) => {

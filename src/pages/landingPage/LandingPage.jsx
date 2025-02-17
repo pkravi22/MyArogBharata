@@ -2,7 +2,7 @@ import React from "react";
 import LandingFooter from "../../components/landingpage/LandingFooter";
 import LandingHero from "../../components/landingpage/LandingHero";
 
-import Benefits from "../../components/subcategory/Benefits";
+
 import Testimonial from "../../components/subcategory/Testimonial";
 import Services from "../../components/landingpage/Services";
 import Category from "../../data/courses";

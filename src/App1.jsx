@@ -30,6 +30,7 @@ import Membership from "./pages/doctorDashboard/Membership";
 import ProfilePage from "./pages/doctorDashboard/ProfilePage";
 import Admin from "./pages/adminDashboard/Admin";
 import User from "./pages/userDashboard/User";
+import AddPatient from "./pages/adminDashboard/AddPatient";
 const App1 = () => {
   
   return (
@@ -71,6 +72,7 @@ const App1 = () => {
         <Route path="/profile" element={<ProfilePage/>}/>
         <Route path="/profile/membership" element={<ProfilePage/>}/>
         <Route path="/admin/doctors" element={<Admin/>}/>
+        <Route path="/admin/addPatient" element={<AddPatient/>}/>
         <Route path="/admin/patients" element={<Admin/>}/>
         <Route path="/user" element={<User/>}/>
         

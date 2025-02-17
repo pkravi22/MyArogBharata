@@ -31,10 +31,24 @@ const Admin = () => {
           className={` p-2 ${
             component === "patients" ? "bg-blue-600" : "bg-white"
           } flex  cursor-pointer`}
-        >
+          onClick={() => handleClick("patients")}>
           <div className="flex px-8">
-            <Link to="/admin/patients" onClick={() => handleClick("patients")}>
+            <Link to="/admin/patients" >
               Patients
+            </Link>
+            <div>
+              <MdNavigateNext size={25} />
+            </div>
+          </div>
+        </div>
+        <div
+          className={` p-2 ${
+            component === "patients" ? "bg-blue-600" : "bg-white"
+          } flex  cursor-pointer`}
+          onClick={() => handleClick("patients")}>
+          <div className="flex px-8">
+            <Link to="/admin/patients" >
+              Add Doctors
             </Link>
             <div>
               <MdNavigateNext size={25} />

@@ -16,11 +16,12 @@ const User = () => {
         <div
           className={` p-2 ${
             component === "profile" ? "bg-blue-600" : "bg-white"
-          } flex  text-center cursor-pointer`}
+          } flex  text-center cursor-pointer`} onClick={() => handleClick("profile")}
+
         >
           <div className='md:pl-8'>
           
-            <Link to="/user" onClick={() => handleClick("profile")}>
+            <Link to="/user" >
               Profile 
             </Link>
           </div>
