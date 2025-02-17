@@ -5,7 +5,7 @@ import bgDesease from "../assets/diseaseBg.webp"
 import bgFemale from "../assets/Asset1.webp"
 import bgMen from "../assets/mensBg.webp"
 import bgSpirit from "../assets/Asset1.webp"
-import bgHolistic from "../assets/HolisticBg.webp"
+
 
 
 import emotionalSubHero from "../assets/allImages/subHeroImages/emotional.webp"
@@ -1181,7 +1181,7 @@ import emotional_why8 from "../assets/allImages/emotional/emotional/why/overwork
      title: "Holistic General Fitness",
      subcategory: "male",
      faqImageUrl: faq1,
-     bgImage:bgHolistic,
+     
      programs: [
        {
          title: "Holistic General Fitness",
